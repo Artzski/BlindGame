@@ -22,7 +22,7 @@ public class MouseLook : MonoBehaviour
 
         // Rotate camera up/down (clamped to avoid flipping)
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
+        xRotation = Mathf.Clamp(xRotation, -15f, 15f);
 
         // Apply rotation to the camera
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
