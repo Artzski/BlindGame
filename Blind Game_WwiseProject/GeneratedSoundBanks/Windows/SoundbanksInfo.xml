@@ -22,10 +22,28 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3B51E889-948F-7EDA-A1E8-111109B087A1}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C3CF505C-5CE2-E59B-4825-4C5BC944C27F}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="222340262" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground Ambience 2.wav</ShortName>
+					<CachePath>SFX/Playground Ambience 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="582511692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground Ambience.wav</ShortName>
+					<CachePath>SFX/Playground Ambience_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2943026140" Name="Play_Playground_Ambience" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="222340262"/>
+						<MediaRef Id="582511692"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{99E4B9EB-A789-D5B0-2148-25A8B5E13BCD}</FileHash>
+	<FileHash>{758299A5-5A1C-4FFC-96E1-9A4ACB0F99FB}</FileHash>
 </SoundBanksInfo>

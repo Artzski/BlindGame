@@ -1,6 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Playground Ambience" ID="{6281A2C0-6D94-4E50-993B-395B58DF13E1}" ShortID="129917913">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Playground Ambience" ID="{6F48335F-4D80-4D28-948B-4DF122A67272}" ShortID="435876896">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Playground Ambience" ID="{8526F140-C142-4FE5-8FA4-7700EC71CDC7}">
+									<Language>SFX</Language>
+									<AudioFile>Playground Ambience.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="582511692"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Playground Ambience" ID="{8526F140-C142-4FE5-8FA4-7700EC71CDC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Playground Ambience 2" ID="{4B22EF68-1A4B-4E5F-8803-5457AB47E685}" ShortID="870083464">
+							<PropertyList>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Playground Ambience 2" ID="{15161D7B-3DD9-4916-ACF5-3E2C00C2FAE4}">
+									<Language>SFX</Language>
+									<AudioFile>Playground Ambience 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="222340262"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Playground Ambience 2" ID="{15161D7B-3DD9-4916-ACF5-3E2C00C2FAE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Playlist">
+							<Reference>
+								<ObjectRef Name="Playground Ambience" ID="{6F48335F-4D80-4D28-948B-4DF122A67272}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+							</Reference>
+							<Reference>
+								<ObjectRef Name="Playground Ambience 2" ID="{4B22EF68-1A4B-4E5F-8803-5457AB47E685}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584634643333551082
+    m_lastTime: -8584610190677805466
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584646561471800045
-    List: []
+    m_lastTime: -8584610190677856276
+    List:
+    - name: Play_Playground_Ambience
+      guid: 35c2f4efddf77d4ca1142cc9745ed864
+      id: 2943026140
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Playground_Ambience
+        ObjectType: 3
+        guid: 35c2f4efddf77d4ca1142cc9745ed864
+      Path: Events\Default Work Unit\Play_Playground_Ambience
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +170,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000070000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
