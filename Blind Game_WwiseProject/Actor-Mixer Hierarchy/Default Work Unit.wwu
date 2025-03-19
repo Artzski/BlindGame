@@ -6,6 +6,7 @@
 				<RandomSequenceContainer Name="Playground Ambience" ID="{6281A2C0-6D94-4E50-993B-395B58DF13E1}" ShortID="129917913">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -90,6 +91,41 @@
 						</ObjectList>
 					</ObjectLists>
 				</RandomSequenceContainer>
+				<Sound Name="Wind Noise (1)" ID="{EB1D1FE9-A744-427B-9CA5-18352EE74CE0}" ShortID="508359881">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Wind Noise (1)" ID="{60797871-B643-47C7-91BD-CE11FBA0B1C7}">
+							<Language>SFX</Language>
+							<AudioFile>Wind Noise (1).wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="859465636"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wind Noise (1)" ID="{60797871-B643-47C7-91BD-CE11FBA0B1C7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 63320c210b012b42bfa5bdbafd381a4e
     GuidInternal: 
-    m_lastTime: -8584646561471800045
+    m_lastTime: -8584604287628613174
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: 94f3066b14ad1042b0bb605864acd329
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 63320c210b012b42bfa5bdbafd381a4e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: 94f3066b14ad1042b0bb605864acd329
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584610190677805466
+    m_lastTime: -8584604293053731404
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -94,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584610190677856276
+    m_lastTime: -8584604293053766561
     List:
     - name: Play_Playground_Ambience
       guid: 35c2f4efddf77d4ca1142cc9745ed864
@@ -110,7 +127,24 @@ MonoBehaviour:
         ObjectType: 3
         guid: 35c2f4efddf77d4ca1142cc9745ed864
       Path: Events\Default Work Unit\Play_Playground_Ambience
-      maxAttenuation: 50
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Wind_Noise__1_
+      guid: 5133abdbfb3e9344969d379eedde7b63
+      id: 3332359353
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Wind_Noise__1_
+        ObjectType: 3
+        guid: 5133abdbfb3e9344969d379eedde7b63
+      Path: Events\Default Work Unit\Play_Wind_Noise__1_
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
@@ -170,7 +204,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000b0000000c000000
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

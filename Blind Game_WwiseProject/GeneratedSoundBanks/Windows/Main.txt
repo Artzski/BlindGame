@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2943026140	Play_Playground_Ambience			\Default Work Unit\Play_Playground_Ambience	
+	3332359353	Play_Wind_Noise__1_			\Default Work Unit\Play_Wind_Noise__1_	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	222340262	Playground Ambience 2	C:\Users\Jack Ralph Thatcher\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Playground Ambience 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Playground Ambience\Playground Ambience 2		6537312
 	582511692	Playground Ambience	C:\Users\Jack Ralph Thatcher\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Playground Ambience_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Playground Ambience\Playground Ambience		6045792
+	859465636	Wind Noise (1)	C:\Users\Jack Ralph Thatcher\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Wind Noise (1)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind Noise (1)		4962624
 

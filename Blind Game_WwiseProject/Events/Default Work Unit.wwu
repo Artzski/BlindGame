@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Wind_Noise__1_" ID="{DBAB3351-3EFB-4493-969D-379EEDDE7B63}">
+					<ChildrenList>
+						<Action Name="" ID="{9B2AAE8E-E259-44FB-BE78-4A1E1893A209}" ShortID="276836720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wind Noise (1)" ID="{EB1D1FE9-A744-427B-9CA5-18352EE74CE0}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -9,10 +9,13 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B6CBD692-12EC-CDBA-0932-48F63C40C91F}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{91B6020D-3C5E-CD38-7027-D7685A72D575}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<ShareSets>
+					<Plugin Id="3407225994" Name="Phone_Booth" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
@@ -21,8 +24,17 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<AuxBusses>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3407225994"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C3CF505C-5CE2-E59B-4825-4C5BC944C27F}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{39B51B56-C623-FDC3-32FC-FCA4F5BAD39B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -34,16 +46,25 @@
 					<ShortName>Playground Ambience.wav</ShortName>
 					<CachePath>SFX/Playground Ambience_818F3B66.wem</CachePath>
 				</File>
+				<File Id="859465636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Wind Noise (1).wav</ShortName>
+					<CachePath>SFX/Wind Noise (1)_FBC78EF0.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="2943026140" Name="Play_Playground_Ambience" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="2943026140" Name="Play_Playground_Ambience" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="222340262"/>
 						<MediaRef Id="582511692"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3332359353" Name="Play_Wind_Noise__1_" MaxAttenuation="10" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="859465636"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{758299A5-5A1C-4FFC-96E1-9A4ACB0F99FB}</FileHash>
+	<FileHash>{CFF0552B-F511-A98A-5C4F-635250CF354D}</FileHash>
 </SoundBanksInfo>
