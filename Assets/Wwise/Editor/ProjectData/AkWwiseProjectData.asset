@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 63320c210b012b42bfa5bdbafd381a4e
     GuidInternal: 
-    m_lastTime: -8584604287628613174
+    m_lastTime: -8584548220343832845
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584604293053731404
+    m_lastTime: -8584548220342879669
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584604293053766561
+    m_lastTime: -8584548220345311862
     List:
     - name: Play_Playground_Ambience
       guid: 35c2f4efddf77d4ca1142cc9745ed864
@@ -127,7 +127,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 35c2f4efddf77d4ca1142cc9745ed864
       Path: Events\Default Work Unit\Play_Playground_Ambience
-      maxAttenuation: 10
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_Wind_Noise__1_
