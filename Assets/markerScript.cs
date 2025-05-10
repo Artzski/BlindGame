@@ -28,6 +28,7 @@ public class markerScript : MonoBehaviour
             if (playedOnce == false)
             {
                 marker.SetActive(true);
+                voiceLine.Post(marker);
                 this.gameObject.SetActive(false);
                 playedOnce = true;
             }
