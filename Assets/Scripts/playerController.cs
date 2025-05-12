@@ -29,7 +29,7 @@ public class playerController : MonoBehaviour
         {
             Debug.Log("Respawn");
             controller.enabled = false;
-            this.transform.position = new Vector3(172, 2, 26);
+            this.transform.position = new Vector3(172, 4, 26);
             velocity = Vector3.zero;
             controller.enabled = true;
         }
