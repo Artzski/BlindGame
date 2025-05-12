@@ -19,7 +19,7 @@ public class CarSpawner : MonoBehaviour
     {
         if (timer <= 0)
         {
-            randInt = Random.Range(0, 200);
+            randInt = Random.Range(0, 400);
             if (randInt == 0)
             {
                 Instantiate(car, transform.position, transform.rotation);

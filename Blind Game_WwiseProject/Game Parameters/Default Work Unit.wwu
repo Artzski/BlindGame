@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C5BF2EB2-48BE-4A7A-BF32-BFE2898A0598}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{C5BF2EB2-48BE-4A7A-BF32-BFE2898A0598}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C5BF2EB2-48BE-4A7A-BF32-BFE2898A0598}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EdgeTimer" ID="{101E0E86-E509-4018-88DE-715A199853C7}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="5"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

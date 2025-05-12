@@ -159,8 +159,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b22ebfc5be487a4abf32bfe2898a0598
     GuidInternal: 
-    m_lastTime: -8584646561471800045
-    List: []
+    m_lastTime: -8584545526737343134
+    List:
+    - name: EdgeTimer
+      guid: 860e1e1009e5184088de715a199853c7
+      id: 1674544969
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b22ebfc5be487a4abf32bfe2898a0598
+      - ElementName: EdgeTimer
+        ObjectType: 13
+        guid: 860e1e1009e5184088de715a199853c7
+      Path: Game Parameters\Default Work Unit\EdgeTimer
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -204,7 +218,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c000000
+  ExpandedWaapiItemIds: 0200000003000000040000000500000006000000070000000b0000000c0000001400000015000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

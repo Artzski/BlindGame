@@ -5,18 +5,35 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     public float speed = 6.0f;        // Movement speed
-    public float gravity = -9.81f;   // Gravity force
+    public float gravity = 1f;   // Gravity force
 
 
     private CharacterController controller;
     private Vector3 velocity;
+    public Rigidbody rb;
 
+    //Attributes
+
+    public AK.Wwise.RTPC heartbeatVolume = null;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        rb.useGravity = true;
+        rb.drag = 5f;
     }
 
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        if (hit.gameObject.CompareTag("Respawn"))
+        {
+            Debug.Log("Respawn");
+            controller.enabled = false;
+            this.transform.position = new Vector3(172, 2, 26);
+            velocity = Vector3.zero;
+            controller.enabled = true;
+        }
+    }
     void Update()
     {
 

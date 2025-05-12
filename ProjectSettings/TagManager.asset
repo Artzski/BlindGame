@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CarDespawnWall
   - Car
+  - Wood
+  - PlaygroundTP
+  - GoingHomeTP
   layers:
   - Default
   - TransparentFX
