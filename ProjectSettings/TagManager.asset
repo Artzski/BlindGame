@@ -9,6 +9,7 @@ TagManager:
   - Wood
   - PlaygroundTP
   - GoingHomeTP
+  - EndingTP
   layers:
   - Default
   - TransparentFX

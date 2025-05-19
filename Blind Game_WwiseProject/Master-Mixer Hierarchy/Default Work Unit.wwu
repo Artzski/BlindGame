@@ -27,6 +27,7 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
+						<AuxBus Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

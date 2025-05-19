@@ -7,6 +7,11 @@ public class playerController : MonoBehaviour
     public float speed = 6.0f;        // Movement speed
     public float gravity = 1f;   // Gravity force
 
+    //playground markers and voicelines
+    [SerializeField] private GameObject[] markers;
+
+    //ak event for stopping the Voice Lines
+    public AK.Wwise.Event idleStop;
 
     private CharacterController controller;
     private Vector3 velocity;
@@ -29,9 +34,20 @@ public class playerController : MonoBehaviour
         {
             Debug.Log("Respawn");
             controller.enabled = false;
-            this.transform.position = new Vector3(172, 4, 26);
+            this.transform.position = new Vector3(162, 2, 26);
             velocity = Vector3.zero;
             controller.enabled = true;
+
+            foreach (var m in markers)
+            {
+                if (m != null)
+                {
+                    m.SetActive(false);
+                    idleStop.Post(m);
+                }
+            }
+
+
         }
     }
     void Update()

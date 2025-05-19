@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 63320c210b012b42bfa5bdbafd381a4e
     GuidInternal: 
-    m_lastTime: -8584548220343832845
+    m_lastTime: -8584539595154213596
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reflect
+      guid: 1d51ebbc5288744eaec710371f870c9a
+      id: 243379636
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 63320c210b012b42bfa5bdbafd381a4e
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reflect
+        ObjectType: 1
+        guid: 1d51ebbc5288744eaec710371f870c9a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reflect
     - name: Reverb
       guid: 94f3066b14ad1042b0bb605864acd329
       id: 348963605

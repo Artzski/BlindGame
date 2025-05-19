@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: 27a08f1f74722f24b841aaf7f248f5d5
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 4e48afae27002d0429f59aabceef1b81
+  - enabled: 1
+    path: Assets/Scenes/GoingHome.unity
+    guid: 5e9c327454bd1d844af054fdd8ab250c
   m_configObjects: {}

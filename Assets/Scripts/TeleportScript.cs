@@ -13,9 +13,13 @@ public class TeleportScript : MonoBehaviour
             {
                 SceneManager.LoadScene("Playground");
             }
-            if(this.gameObject.CompareTag("GoingHomeTP"))
+            if (this.gameObject.CompareTag("GoingHomeTP"))
             {
                 SceneManager.LoadScene("GoingHome");
+            }
+            if (this.gameObject.CompareTag("EndingTP"))
+            {
+                SceneManager.LoadScene("Ending");
             }
         }
     }
