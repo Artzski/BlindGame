@@ -126,6 +126,870 @@
 						<ActiveSource Name="Wind Noise (1)" ID="{60797871-B643-47C7-91BD-CE11FBA0B1C7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Voicelines " ID="{7A07EF97-672A-49E7-8225-796B0461043B}" ShortID="1057939192">
+					<ChildrenList>
+						<Folder Name="Main (pre-playground)" ID="{98EAD7AC-CA6C-4E2D-97A9-2F1A87F86613}" ShortID="232956760">
+							<ChildrenList>
+								<Sound Name="M1_1" ID="{018358A7-195A-4287-925E-0380A41B5B7B}" ShortID="247480151">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M1_1" ID="{B27AFAA0-086E-4746-B9AD-A09EABC11B39}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.868508891928864"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.12999544003648"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.72468764249886"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M1_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577159097"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M1_1" ID="{B27AFAA0-086E-4746-B9AD-A09EABC11B39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M2_1" ID="{4F9588BA-59C1-4B43-842E-83C12C2B5DD6}" ShortID="23587836">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M2_1" ID="{DE3B2EDD-A63D-41E5-82CD-868C2B585CD0}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.579005927952576"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.70825353397173"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M2_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42558266"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M2_1" ID="{DE3B2EDD-A63D-41E5-82CD-868C2B585CD0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M3_1" ID="{98ABC9FD-D738-4A34-B503-C6227417129A}" ShortID="68298732">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M3_1" ID="{0DDF45C1-BF1E-45A0-A31D-34419C86CE71}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0233470132238942"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.574336525307798"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0186776105791154"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.38139534883721"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M3_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="829595835"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M3_1" ID="{0DDF45C1-BF1E-45A0-A31D-34419C86CE71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M4_1" ID="{B45468E5-D022-4C30-8C1F-5698EF69E9BF}" ShortID="551006167">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M4_1" ID="{F3BAE216-1B97-49A5-A039-8F7B85CB0E25}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.392229822161423"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.252147742818057"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.54687824897401"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M4_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="91783836"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M4_1" ID="{F3BAE216-1B97-49A5-A039-8F7B85CB0E25}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M5_1" ID="{CD048E1F-FC6F-47B9-BE7E-08BA412F0EB1}" ShortID="455505194">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M5_1" ID="{85263C5E-E6F7-445C-BFAE-E6A6256AAD18}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.476279069767442"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.38961422708618"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.26671409028728"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M5_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="843771257"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M5_1" ID="{85263C5E-E6F7-445C-BFAE-E6A6256AAD18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M6_1" ID="{050D12E7-3764-4B20-ACBB-1C35C2E27687}" ShortID="296579088">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M6_1" ID="{9D95906E-8C07-4F43-81EC-5472E9817885}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201718194254446"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.574336525307796"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.35039124487004"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M6_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5895167"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M6_1" ID="{9D95906E-8C07-4F43-81EC-5472E9817885}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="M7_1" ID="{8DF8114C-DAF7-4DF8-A023-DC3C5D653332}" ShortID="344477833">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="M7_1" ID="{5969305F-1DE9-49D0-A44B-8DF630E9E9F4}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.295106247150023"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.19648700410396"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\M7_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="521523744"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="M7_1" ID="{5969305F-1DE9-49D0-A44B-8DF630E9E9F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Playground Entrance_1" ID="{BC254AFF-0C44-48E2-82B3-3C064FFA3A62}" ShortID="793660024">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Playground Entrance_1" ID="{95CAAF6B-6E5C-45BA-A574-5B128847FCD7}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.294172366621067"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.30201550387597"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Playground Entrance_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="50117545"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Playground Entrance_1" ID="{95CAAF6B-6E5C-45BA-A574-5B128847FCD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Post Song 1_1" ID="{E2C1C3C9-FB8A-4340-B75A-F66653EBE11D}" ShortID="970207998">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Post Song 1_1" ID="{BBE837EC-49F1-47E6-8B52-36B16F51E8E8}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.359544003647971"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.266155950752394"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.09114455084359"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Post Song 1_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="916087681"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Post Song 1_1" ID="{BBE837EC-49F1-47E6-8B52-36B16F51E8E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Post Song 2_1" ID="{11C857E4-2B18-4936-AAA0-62C41ED9FDCF}" ShortID="667465070">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Post Song 2_1" ID="{411CA516-5DC6-4C92-83D5-6D96DF823DBB}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.08703693570451"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.71011764705883"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Post Song 2_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022884050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Post Song 2_1" ID="{411CA516-5DC6-4C92-83D5-6D96DF823DBB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Road 1_1" ID="{B5F71330-2F9E-4433-AC6A-E22BD36A8E95}" ShortID="664980769">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Road 1_1" ID="{11DC7F33-26D2-4E26-B5F4-288D7A0FFBCD}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.504295485636115"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.05902051983584"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.59730779753762"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Road 1_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="59219686"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Road 1_1" ID="{11DC7F33-26D2-4E26-B5F4-288D7A0FFBCD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Road 2_1" ID="{3B1D3AE8-A553-429E-BD42-A66B998C174E}" ShortID="63150134">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Road 2_1" ID="{BCBF920A-1525-42FE-AF3E-651507AA3B1A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.537915184678522"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.60608481532148"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Road 2_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="147523988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Road 2_1" ID="{BCBF920A-1525-42FE-AF3E-651507AA3B1A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Sisters Room_1" ID="{9EE0D270-522E-4DAB-8ED5-455742C88131}" ShortID="328578090">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sisters Room_1" ID="{714E628F-F07F-4F02-9270-C98A9337FE47}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.08049977200182"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.157825809393525"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Main (pre-playground)\Sisters Room_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="336248704"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sisters Room_1" ID="{714E628F-F07F-4F02-9270-C98A9337FE47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Idle Random Container" ID="{BD41BE2D-70DF-4DD0-B38D-3C4B49F1A359}" ShortID="769092741">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Idle 1_1" ID="{18066766-A037-47BF-AC87-39F36A10FFDB}" ShortID="1036786261">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Idle 1_1" ID="{8BCD0B13-91F2-4DDE-9FD5-13929AD6F610}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.409039671682626"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0476279069767442"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.3027633378933"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Idle 1_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="407779606"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Idle 1_1" ID="{8BCD0B13-91F2-4DDE-9FD5-13929AD6F610}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Idle 2_1" ID="{0AEE0A6A-D843-4F8C-99E0-4A9841C8CB31}" ShortID="415274608">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Idle 2_1" ID="{1114346C-6754-4EF9-92E0-12BF27668BBF}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.5827414500684"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.34758960328318"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Idle 2_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="714759025"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Idle 2_1" ID="{1114346C-6754-4EF9-92E0-12BF27668BBF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Idle 3_1" ID="{D4D55A70-DAB3-4684-AD62-DA2977A613D7}" ShortID="351418011">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Idle 3_1" ID="{5A9559C3-4287-4530-A7B0-E68D1EFF30D7}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.577138166894665"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.215726402188782"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.184908344733242"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.33077975376197"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Idle 3_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="779842558"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Idle 3_1" ID="{5A9559C3-4287-4530-A7B0-E68D1EFF30D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Idle 4_1" ID="{29A4C2D1-07E0-4A61-8F70-9553CCBEB5F3}" ShortID="908641563">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Idle 4_1" ID="{7C122B6B-92FC-4BC6-B4EF-72A786AD5C67}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.306312813497492"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.388494300045599"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.96862015503875"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Idle 4_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="874353328"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Idle 4_1" ID="{7C122B6B-92FC-4BC6-B4EF-72A786AD5C67}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Car Hit Random" ID="{4DEA103C-69EA-45E2-B036-5B215960DEFC}" ShortID="803951128">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Car Hit 1_1" ID="{0EA8D5DE-F8AE-4D0A-9CF3-7A06BC5691D2}" ShortID="438226054">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Car Hit 1_1" ID="{D2948663-3E5C-4221-A5C3-81FA645206F2}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.546320109439125"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.9790788873689"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Car Hit 1_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="325146162"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Car Hit 1_1" ID="{D2948663-3E5C-4221-A5C3-81FA645206F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Car Hit 2_1" ID="{8974E2A1-3165-4657-9617-9900C7422988}" ShortID="347573365">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Car Hit 2_1" ID="{F2DA938C-CFE4-4365-94CE-53138AC70D2B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.298841769265846"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.216660282717738"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.59506794345645"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Main (pre-playground)\Car Hit 2_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1015973906"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Car Hit 2_1" ID="{F2DA938C-CFE4-4365-94CE-53138AC70D2B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{F5EE67E2-6F83-4599-96A6-3A83B03BEDFE}"/>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Playground And Act 3" ID="{0C2BC0EB-8106-47E3-8175-C905281439AC}" ShortID="238358169">
+							<ChildrenList>
+								<Sound Name="Act 3 House_1" ID="{EF566EAC-AEAA-4C60-BEBB-607D630A9D95}" ShortID="872126894">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Act 3 House_1" ID="{76B93AE8-2C33-4865-9E39-AB806F993F77}">
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Act 3 House_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275841036"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Act 3 House_1" ID="{76B93AE8-2C33-4865-9E39-AB806F993F77}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Act 3 Parent Line_1" ID="{D5257AFF-931B-4B2C-B09C-1F7B581667ED}" ShortID="5649868">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Act 3 Parent Line_1" ID="{E1C8395F-A361-413E-A383-B749F1279113}">
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Act 3 Parent Line_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032644892"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Act 3 Parent Line_1" ID="{E1C8395F-A361-413E-A383-B749F1279113}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Act 3 Road 2_1" ID="{34F8C6F0-6BAC-42B3-94FC-9348155F3EFF}" ShortID="227602677">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Act 3 Road 2_1" ID="{4EBE0F99-DC75-46CA-B763-B7D0E5791D97}">
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Act 3 Road 2_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="42038301"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Act 3 Road 2_1" ID="{4EBE0F99-DC75-46CA-B763-B7D0E5791D97}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Act 3 Roadside_1" ID="{867E7B17-768A-469F-B1EE-4CD80DA2978E}" ShortID="547756616">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Act 3 Roadside_1" ID="{007AFED8-8F1F-434C-8E18-80D6A8F6D02F}">
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Act 3 Roadside_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592503033"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Act 3 Roadside_1" ID="{007AFED8-8F1F-434C-8E18-80D6A8F6D02F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaving Voiceline_1" ID="{CBC6ECBA-39D7-4738-A71A-6E38CB883D26}" ShortID="311317817">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaving Voiceline_1" ID="{FD74708E-7D5B-45A4-B798-1F47F37A1709}">
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Leaving Voiceline_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="550187814"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaving Voiceline_1" ID="{FD74708E-7D5B-45A4-B798-1F47F37A1709}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Playground intro_1" ID="{517EAD5C-CCAC-4D38-90B7-433E7AF8CD96}" ShortID="862042876">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Playground intro_1" ID="{0D4E6B12-E8D6-4489-B176-CFEE17354F1F}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="1.55584496124031"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.55584496124031"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\Playground intro_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="452862857"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Playground intro_1" ID="{0D4E6B12-E8D6-4489-B176-CFEE17354F1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="tunnel Voice Line_1" ID="{96B51866-8C56-4BC4-B54B-3E4C42025A37}" ShortID="940992481">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="tunnel Voice Line_1" ID="{8A2DC6C7-1138-4B4F-AFF5-76D845A23984}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="0.112065663474692"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Playground And Act 3\tunnel Voice Line_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="405287913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="tunnel Voice Line_1" ID="{8A2DC6C7-1138-4B4F-AFF5-76D845A23984}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -23,6 +23,15 @@ public class playerController : MonoBehaviour
 
     void Start()
     {
+        if (PlayerPrefs.HasKey("PlayerPosX"))
+        {
+            float x = PlayerPrefs.GetFloat("PlayerPosX");
+            float y = PlayerPrefs.GetFloat("PlayerPosY");
+            float z = PlayerPrefs.GetFloat("PlayerPosZ");
+            transform.position = new Vector3(x, y, z);
+        }
+        
+        rb = GetComponent<Rigidbody>();
         controller = GetComponent<CharacterController>();
         rb.useGravity = true;
         rb.drag = 5f;
