@@ -7,7 +7,6 @@ using UnityEngine;
 public class markerScript : MonoBehaviour
 {
     public AK.Wwise.Event voiceLine;
-    public AK.Wwise.Event idleLine;
     public markerHandler handler;
     private void OnTriggerEnter(Collider other)
     {

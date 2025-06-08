@@ -31,6 +31,7 @@ public class markerHandler : MonoBehaviour
 
     public void OnMarkerTriggered(GameObject triggeredMarker)
     {
+        timer = 7f;
         Debug.Log("Marker Triggered: " + triggeredMarker.name);
         if ((currentMarker != null))
         {
@@ -43,6 +44,8 @@ public class markerHandler : MonoBehaviour
             AK.Wwise.Event voiceLine = currentMarker.GetComponent<markerScript>().voiceLine;
             if (voiceLine != null)
             {
+                idleStop.Post(currentMarker);
+                
                 voiceLine.Post(currentMarker);
             }
         }
