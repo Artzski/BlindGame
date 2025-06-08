@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 3a215b401bc493343942dbbc666f18af
   - enabled: 1
+    path: Assets/Scenes/SistersRoom.unity
+    guid: 393380023213ff14cb5499910471dfcc
+  - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: 27a08f1f74722f24b841aaf7f248f5d5
   - enabled: 1

@@ -126,7 +126,7 @@
 						<ActiveSource Name="Wind Noise (1)" ID="{60797871-B643-47C7-91BD-CE11FBA0B1C7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Folder Name="Voicelines " ID="{7A07EF97-672A-49E7-8225-796B0461043B}" ShortID="1057939192">
+				<Folder Name="Voicelines" ID="{7A07EF97-672A-49E7-8225-796B0461043B}" ShortID="1057939192">
 					<ChildrenList>
 						<Folder Name="Main (pre-playground)" ID="{98EAD7AC-CA6C-4E2D-97A9-2F1A87F86613}" ShortID="232956760">
 							<ChildrenList>
@@ -714,6 +714,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

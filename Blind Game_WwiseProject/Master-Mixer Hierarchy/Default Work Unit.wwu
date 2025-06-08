@@ -27,7 +27,23 @@
 								</ObjectList>
 							</ObjectLists>
 						</AuxBus>
-						<AuxBus Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}"/>
+						<AuxBus Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{73EE0884-B11F-4DFC-B69B-DC20964AE75C}" ShortID="900627211">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+														<ObjectRef Name="New_Reflect" ID="{109BBC12-FF4F-4C58-A7CB-F51D25039F50}" WorkUnitID="{C0B25E2D-6998-4DEF-835D-6FD5AC2B315A}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

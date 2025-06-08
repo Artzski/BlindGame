@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class markerScript : MonoBehaviour
 {
-    [SerializeField] private AK.Wwise.Event voiceLine;
+    public AK.Wwise.Event voiceLine;
+    public AK.Wwise.Event idleLine;
     public markerHandler handler;
     private void OnTriggerEnter(Collider other)
     {

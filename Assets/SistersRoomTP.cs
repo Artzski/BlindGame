@@ -18,6 +18,7 @@ public class SistersRoomTP : MonoBehaviour
             PlayerPrefs.SetFloat("PlayerPosZ", pos.z);
             PlayerPrefs.Save();
 
+            collision.gameObject.GetComponent<playerController>().visitedSistersRoom = true;
             SceneManager.LoadScene("SistersRoom", LoadSceneMode.Single);
         }
     }

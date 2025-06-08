@@ -20,5 +20,6 @@ public class StarterMarkerScript : MonoBehaviour
         marker.SetActive(true);
         markerHandler.SetActive(true);
         this.gameObject.SetActive(false);
+        voiceLine.Post(marker);
     }
 }
