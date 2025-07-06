@@ -424,79 +424,6 @@
 										<ActiveSource Name="Playground Entrance_1" ID="{95CAAF6B-6E5C-45BA-A574-5B128847FCD7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Post Song 1_1" ID="{E2C1C3C9-FB8A-4340-B75A-F66653EBE11D}" ShortID="970207998">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-										<Reference Name="ReflectionsAuxSend">
-											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Post Song 1_1" ID="{BBE837EC-49F1-47E6-8B52-36B16F51E8E8}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.359544003647971"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.266155950752394"/>
-												<Property Name="TrimEnd" Type="Real64" Value="3.09114455084359"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Main (pre-playground)\Post Song 1_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="916087681"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Post Song 1_1" ID="{BBE837EC-49F1-47E6-8B52-36B16F51E8E8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Post Song 2_1" ID="{11C857E4-2B18-4936-AAA0-62C41ED9FDCF}" ShortID="667465070">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-										<Reference Name="ReflectionsAuxSend">
-											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Post Song 2_1" ID="{411CA516-5DC6-4C92-83D5-6D96DF823DBB}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.08703693570451"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimEnd" Type="Real64" Value="7.71011764705883"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Main (pre-playground)\Post Song 2_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1022884050"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Post Song 2_1" ID="{411CA516-5DC6-4C92-83D5-6D96DF823DBB}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Road 1_1" ID="{B5F71330-2F9E-4433-AC6A-E22BD36A8E95}" ShortID="664980769">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -568,42 +495,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Road 2_1" ID="{BCBF920A-1525-42FE-AF3E-651507AA3B1A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Sisters Room_1" ID="{9EE0D270-522E-4DAB-8ED5-455742C88131}" ShortID="328578090">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-										<Reference Name="ReflectionsAuxSend">
-											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Sisters Room_1" ID="{714E628F-F07F-4F02-9270-C98A9337FE47}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="1.08049977200182"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.157825809393525"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Main (pre-playground)\Sisters Room_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="336248704"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Sisters Room_1" ID="{714E628F-F07F-4F02-9270-C98A9337FE47}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Idle Random Container" ID="{BD41BE2D-70DF-4DD0-B38D-3C4B49F1A359}" ShortID="769092741">
@@ -822,6 +713,31 @@
 										<Position Name="" ID="{F5EE67E2-6F83-4599-96A6-3A83B03BEDFE}"/>
 									</PositioningInfo>
 								</RandomSequenceContainer>
+								<Sound Name="Sister's Room (FULL)" ID="{D97CAB05-E2DB-44C3-9C96-EC16589A8C53}" ShortID="120199510">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sister's Room (FULL)" ID="{AD41FF79-55B3-446D-8EE7-7187ECC6720D}">
+											<Language>SFX</Language>
+											<AudioFile>Sister's Room (FULL).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="712187636"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Sister's Room (FULL)" ID="{AD41FF79-55B3-446D-8EE7-7187ECC6720D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Playground And Act 3" ID="{0C2BC0EB-8106-47E3-8175-C905281439AC}" ShortID="238358169">

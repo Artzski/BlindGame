@@ -7,10 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Road_2_1" ID="{1C000987-2025-4064-991F-0B72B6DFDAA1}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M7_1" ID="{16E5EA1A-405E-4121-9890-6C5337C008CE}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Post_Song_1_1" ID="{88667622-2950-4166-85FB-2002892F5A66}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M6_1" ID="{2151C011-CE80-428A-81C4-DA9AC6F97709}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Post_Song_2_1" ID="{2BA1A6CF-81FD-4311-9E4F-C9B5A16E6F0F}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Sisters_Room_1" ID="{AA177183-5C48-438B-AC06-B1C4E464C4EE}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Sister_s_Room__FULL_" ID="{0F732C29-AEFB-42BD-93E4-6BA9D446DAE3}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Car_Hit_Random" ID="{C99EF87D-D7FF-4391-B9CB-625B15D1F593}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Road_1_1" ID="{3D3BD543-950D-43BC-8BA9-93BC1AFA8588}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Playground_Entrance_1" ID="{78C2CFF8-39C4-4454-AE8E-853B542AD2B1}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>

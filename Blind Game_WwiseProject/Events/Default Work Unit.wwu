@@ -25,28 +25,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Post_Song_1_1" ID="{88667622-2950-4166-85FB-2002892F5A66}">
-					<ChildrenList>
-						<Action Name="" ID="{0589DC11-2049-4B45-9F82-C142871291B8}" ShortID="638154969">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Post Song 1_1" ID="{E2C1C3C9-FB8A-4340-B75A-F66653EBE11D}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Post_Song_2_1" ID="{2BA1A6CF-81FD-4311-9E4F-C9B5A16E6F0F}">
-					<ChildrenList>
-						<Action Name="" ID="{05B916C3-E6C2-4D98-8D68-E6F88B87E48B}" ShortID="738342605">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Post Song 2_1" ID="{11C857E4-2B18-4936-AAA0-62C41ED9FDCF}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Marker Events" ID="{6599F7CD-5694-42F4-AE00-A102195E8AE6}" ShortID="403813413">
 					<ChildrenList>
 						<Event Name="Play_M1_1" ID="{1D54B33A-4378-4EBA-8C00-FB67DFFBAE39}">
@@ -159,17 +137,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Sisters_Room_1" ID="{AA177183-5C48-438B-AC06-B1C4E464C4EE}">
-							<ChildrenList>
-								<Action Name="" ID="{6A3352BC-9ED1-425B-877D-B9360DF3FB04}" ShortID="274880218">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Sisters Room_1" ID="{9EE0D270-522E-4DAB-8ED5-455742C88131}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 					</ChildrenList>
 				</Folder>
 				<Event Name="Stop_Idle_Random" ID="{2436119A-3772-48F1-85A1-4EF858FDDE71}">
@@ -181,6 +148,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Idle Random Container" ID="{BD41BE2D-70DF-4DD0-B38D-3C4B49F1A359}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Sister_s_Room__FULL_" ID="{0F732C29-AEFB-42BD-93E4-6BA9D446DAE3}">
+					<ChildrenList>
+						<Action Name="" ID="{D19DBFA4-1FF9-4B62-9244-FE2B082C1792}" ShortID="504989648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sister's Room (FULL)" ID="{D97CAB05-E2DB-44C3-9C96-EC16589A8C53}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

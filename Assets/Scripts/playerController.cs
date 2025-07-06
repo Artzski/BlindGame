@@ -23,29 +23,7 @@ public class playerController : MonoBehaviour
     public AK.Wwise.RTPC heartbeatVolume = null;
 
     void Start()
-    {
-        if (visitedSistersRoom)
-        {
-            if (!visitedPlayground)
-            {
-                if (PlayerPrefs.HasKey("PlayerPosX"))
-                {
-                    float x = PlayerPrefs.GetFloat("PlayerPosX");
-                    float y = PlayerPrefs.GetFloat("PlayerPosY");
-                    float z = PlayerPrefs.GetFloat("PlayerPosZ");
-                    transform.position = new Vector3(x, y, z);
-                }
-            }
-            else
-            {
-                transform.position = new Vector3(162, 2, 26);
-            }
-        }
-        else
-        {
-            transform.position = new Vector3(22, 2, 21);
-        }
-        
+    {  
         rb = GetComponent<Rigidbody>();
         controller = GetComponent<CharacterController>();
         rb.useGravity = true;

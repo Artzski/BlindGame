@@ -38,7 +38,7 @@
 				<GameParameter Id="1674544969" Name="EdgeTimer"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A1847EC2-9781-8D4A-7C75-555F741D5AAA}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{10BE88C9-E4CA-E578-6BE8-0D7203A2738D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -70,10 +70,6 @@
 					<ShortName>Main (pre-playground)\Car Hit 1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Car Hit 1_1_22FCD28B.wem</CachePath>
 				</File>
-				<File Id="336248704" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main (pre-playground)\Sisters Room_1.wav</ShortName>
-					<CachePath>SFX/Main (pre-playground)/Sisters Room_1_7F146F31.wem</CachePath>
-				</File>
 				<File Id="407779606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 1_1_C0A6C755.wem</CachePath>
@@ -85,6 +81,10 @@
 				<File Id="577159097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/M1_1_0BBB33D8.wem</CachePath>
+				</File>
+				<File Id="712187636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sister's Room (FULL).wav</ShortName>
+					<CachePath>SFX/Sister's Room (FULL)_818F3B66.wem</CachePath>
 				</File>
 				<File Id="714759025" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 2_1.wav</ShortName>
@@ -106,21 +106,13 @@
 					<ShortName>Main (pre-playground)\Idle 4_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 4_1_1F97E041.wem</CachePath>
 				</File>
-				<File Id="916087681" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main (pre-playground)\Post Song 1_1.wav</ShortName>
-					<CachePath>SFX/Main (pre-playground)/Post Song 1_1_505B6BFA.wem</CachePath>
-				</File>
 				<File Id="1015973906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Car Hit 2_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Car Hit 2_1_DBF921C9.wem</CachePath>
 				</File>
-				<File Id="1022884050" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Main (pre-playground)\Post Song 2_1.wav</ShortName>
-					<CachePath>SFX/Main (pre-playground)/Post Song 2_1_4034E502.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
-				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
+				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
 					<MediaRefs>
 						<MediaRef Id="325146162"/>
 						<MediaRef Id="1015973906"/>
@@ -129,7 +121,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
+				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
 					<MediaRefs>
 						<MediaRef Id="407779606"/>
 						<MediaRef Id="714759025"/>
@@ -140,7 +132,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1018343276" Name="Play_M1_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.594692" DurationMax="4.594692">
+				<Event Id="1018343276" Name="Play_M1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.594692" DurationMax="4.594692">
 					<MediaRefs>
 						<MediaRef Id="577159097"/>
 					</MediaRefs>
@@ -148,7 +140,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1018784531" Name="Play_M2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.7082536" DurationMax="2.7082536">
+				<Event Id="1018784531" Name="Play_M2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.7082536" DurationMax="2.7082536">
 					<MediaRefs>
 						<MediaRef Id="42558266"/>
 					</MediaRefs>
@@ -156,7 +148,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2092405114" Name="Play_M3_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3627176" DurationMax="2.3627176">
+				<Event Id="2092405114" Name="Play_M3_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3627176" DurationMax="2.3627176">
 					<MediaRefs>
 						<MediaRef Id="829595835"/>
 					</MediaRefs>
@@ -164,7 +156,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2092846369" Name="Play_M4_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="3.2947304" DurationMax="3.2947304">
+				<Event Id="2092846369" Name="Play_M4_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.2947304" DurationMax="3.2947304">
 					<MediaRefs>
 						<MediaRef Id="91783836"/>
 					</MediaRefs>
@@ -172,7 +164,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1018931592" Name="Play_M5_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.8770999" DurationMax="1.8770999">
+				<Event Id="1018931592" Name="Play_M5_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8770999" DurationMax="1.8770999">
 					<MediaRefs>
 						<MediaRef Id="843771257"/>
 					</MediaRefs>
@@ -180,7 +172,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1019476047" Name="Play_M6_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.77605474" DurationMax="0.77605474">
+				<Event Id="1019476047" Name="Play_M6_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.77605474" DurationMax="0.77605474">
 					<MediaRefs>
 						<MediaRef Id="5895167"/>
 					</MediaRefs>
@@ -188,7 +180,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1019328982" Name="Play_M7_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.196487" DurationMax="2.196487">
+				<Event Id="1019328982" Name="Play_M7_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.196487" DurationMax="2.196487">
 					<MediaRefs>
 						<MediaRef Id="521523744"/>
 					</MediaRefs>
@@ -196,7 +188,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
+				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
 					<MediaRefs>
 						<MediaRef Id="50117545"/>
 					</MediaRefs>
@@ -204,23 +196,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2326658652" Name="Play_Post_Song_1_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.8249886" DurationMax="2.8249886">
-					<MediaRefs>
-						<MediaRef Id="916087681"/>
-					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="243379636" Name="Reflect"/>
-					</AuxBusRefs>
-				</Event>
-				<Event Id="1253332291" Name="Play_Post_Song_2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="7.710118" DurationMax="7.710118">
-					<MediaRefs>
-						<MediaRef Id="1022884050"/>
-					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="243379636" Name="Reflect"/>
-					</AuxBusRefs>
-				</Event>
-				<Event Id="4004380620" Name="Play_Road_1_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.5382872" DurationMax="2.5382872">
+				<Event Id="4004380620" Name="Play_Road_1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.5382872" DurationMax="2.5382872">
 					<MediaRefs>
 						<MediaRef Id="59219686"/>
 					</MediaRefs>
@@ -228,7 +204,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4004925171" Name="Play_Road_2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="5.606085" DurationMax="5.606085">
+				<Event Id="4004925171" Name="Play_Road_2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="5.606085" DurationMax="5.606085">
 					<MediaRefs>
 						<MediaRef Id="147523988"/>
 					</MediaRefs>
@@ -236,17 +212,14 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3389699381" Name="Play_Sisters_Room_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="8.716841" DurationMax="8.716841">
+				<Event Id="4263315066" Name="Play_Sister_s_Room__FULL_" DurationType="OneShot" DurationMin="80.159004" DurationMax="80.159004">
 					<MediaRefs>
-						<MediaRef Id="336248704"/>
+						<MediaRef Id="712187636"/>
 					</MediaRefs>
-					<AuxBusRefs>
-						<AuxBusRef Id="243379636" Name="Reflect"/>
-					</AuxBusRefs>
 				</Event>
 				<Event Id="1534226704" Name="Stop_Idle_Random" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C81493B-BD50-AFA2-2FEF-378BEF42A7DC}</FileHash>
+	<FileHash>{3E1B7EC8-A2ED-0AAA-FBE6-B7B5AE2E15B9}</FileHash>
 </SoundBanksInfo>
