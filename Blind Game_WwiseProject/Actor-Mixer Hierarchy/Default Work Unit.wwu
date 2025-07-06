@@ -316,9 +316,6 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="M6_1" ID="{050D12E7-3764-4B20-ACBB-1C35C2E27687}" ShortID="296579088">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>

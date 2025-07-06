@@ -122,6 +122,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" ShortID="354311915">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="50"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -136,12 +139,12 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>19.95414</XPos>
-											<YPos>-12.25914</YPos>
+											<XPos>20.141</XPos>
+											<YPos>-11.56768</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>50</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
