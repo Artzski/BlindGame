@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class SistersRoomTP : MonoBehaviour
 {
     [SerializeField] private GameObject player;
+    [SerializeField] private GameObject downstairsCollider;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
@@ -18,6 +19,8 @@ public class SistersRoomTP : MonoBehaviour
             PlayerPrefs.SetFloat("PlayerPosZ", pos.z);
             PlayerPrefs.Save();
 
+            downstairsCollider.SetActive(false);
+            // Load the SistersRoom scene
             collision.gameObject.GetComponent<playerController>().visitedSistersRoom = true;
             SceneManager.LoadScene("SistersRoom", LoadSceneMode.Single);
         }

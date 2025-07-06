@@ -144,6 +144,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="M1_1" ID="{B27AFAA0-086E-4746-B9AD-A09EABC11B39}">
@@ -178,6 +181,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="M2_1" ID="{DE3B2EDD-A63D-41E5-82CD-868C2B585CD0}">
@@ -210,6 +216,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -246,6 +255,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="M4_1" ID="{F3BAE216-1B97-49A5-A039-8F7B85CB0E25}">
@@ -279,6 +291,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -314,6 +329,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="M6_1" ID="{9D95906E-8C07-4F43-81EC-5472E9817885}">
@@ -348,6 +366,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="M7_1" ID="{5969305F-1DE9-49D0-A44B-8DF630E9E9F4}">
@@ -381,6 +402,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Playground Entrance_1" ID="{95CAAF6B-6E5C-45BA-A574-5B128847FCD7}">
@@ -413,6 +437,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -448,6 +475,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Post Song 2_1" ID="{411CA516-5DC6-4C92-83D5-6D96DF823DBB}">
@@ -480,6 +510,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -515,6 +548,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Road 2_1" ID="{BCBF920A-1525-42FE-AF3E-651507AA3B1A}">
@@ -547,6 +583,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -582,6 +621,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -798,6 +840,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Act 3 House_1" ID="{76B93AE8-2C33-4865-9E39-AB806F993F77}">
@@ -825,6 +870,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -854,6 +902,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Act 3 Road 2_1" ID="{4EBE0F99-DC75-46CA-B763-B7D0E5791D97}">
@@ -881,6 +932,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -910,6 +964,9 @@
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Leaving Voiceline_1" ID="{FD74708E-7D5B-45A4-B798-1F47F37A1709}">
@@ -937,6 +994,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -970,6 +1030,9 @@
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+										<Reference Name="ReflectionsAuxSend">
+											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>

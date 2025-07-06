@@ -246,10 +246,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 0}
 --- !u!1 &18876797
 GameObject:
@@ -655,10 +651,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 788e81612ae5496439d851c337423aef, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!114 &102779693
 MonoBehaviour:
@@ -859,6 +851,7 @@ Transform:
   m_LocalScale: {x: 0.83029, y: 0.83029, z: 0.83029}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1230217475}
   - {fileID: 750885040}
   - {fileID: 1073753721}
   - {fileID: 1090075540}
@@ -2380,10 +2373,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 167edfb111ceb25488219374dcf1eb51, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!54 &723056677
 Rigidbody:
@@ -3062,10 +3051,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 7312d4f0726af17409a6f87f7e44c969, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!54 &917249554
 Rigidbody:
@@ -3718,10 +3703,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ea3a37af49dea614a89ec2583d078760, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!114 &1048061395
 MonoBehaviour:
@@ -4338,10 +4319,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: d046889b5d2a47d4b92c07f97dbf3274, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!114 &1110852453
 MonoBehaviour:
@@ -4764,6 +4741,59 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &1230217474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1230217475}
+  - component: {fileID: 1230217476}
+  m_Layer: 0
+  m_Name: Spatial Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1230217475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230217474}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.2128545, z: -0, w: 0.977084}
+  m_LocalPosition: {x: 6.11, y: 0.21, z: -5.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 191265691}
+  m_LocalEulerAnglesHint: {x: 0, y: -24.579, z: 0}
+--- !u!65 &1230217476
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230217474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.9999999, y: 3.6550674, z: 7.0204973}
+  m_Center: {x: -0.000000837281, y: 1.3275368, z: 3.0102594}
 --- !u!1 &1267181240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5103,10 +5133,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 71c35b7f31c9b4d4ea071a8c6cb37f2d, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!114 &1306882987
 MonoBehaviour:
@@ -5121,6 +5147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 816447887}
+  downstairsCollider: {fileID: 1230217474}
 --- !u!114 &1306882988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6592,10 +6619,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 0}
 --- !u!1 &1761433891
 GameObject:
@@ -6629,8 +6652,8 @@ Transform:
   m_GameObject: {fileID: 1761433891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.56, y: 4.3737, z: -9.0631}
-  m_LocalScale: {x: 1.3759338, y: 1.191397, z: 4.867901}
+  m_LocalPosition: {x: 5.56, y: 5.79, z: -9.0631}
+  m_LocalScale: {x: 1.3759338, y: 0.84386647, z: 4.867901}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1798018665}
@@ -6750,10 +6773,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 49b265734dad0864fa8db94e3a8f949c, type: 2}
-  idleLine:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
   handler: {fileID: 778553935}
 --- !u!114 &1761433898
 MonoBehaviour:

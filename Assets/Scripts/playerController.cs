@@ -10,6 +10,7 @@ public class playerController : MonoBehaviour
     //playground markers and voicelines
     [SerializeField] private GameObject[] markers;
     public bool visitedSistersRoom = false;
+    public bool visitedPlayground = false;
     //ak event for stopping the Voice Lines
     public AK.Wwise.Event idleStop;
 
@@ -25,12 +26,19 @@ public class playerController : MonoBehaviour
     {
         if (visitedSistersRoom)
         {
-            if (PlayerPrefs.HasKey("PlayerPosX"))
+            if (!visitedPlayground)
             {
-                float x = PlayerPrefs.GetFloat("PlayerPosX");
-                float y = PlayerPrefs.GetFloat("PlayerPosY");
-                float z = PlayerPrefs.GetFloat("PlayerPosZ");
-                transform.position = new Vector3(x, y, z);
+                if (PlayerPrefs.HasKey("PlayerPosX"))
+                {
+                    float x = PlayerPrefs.GetFloat("PlayerPosX");
+                    float y = PlayerPrefs.GetFloat("PlayerPosY");
+                    float z = PlayerPrefs.GetFloat("PlayerPosZ");
+                    transform.position = new Vector3(x, y, z);
+                }
+            }
+            else
+            {
+                transform.position = new Vector3(162, 2, 26);
             }
         }
         else

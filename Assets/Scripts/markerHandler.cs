@@ -19,7 +19,7 @@ public class markerHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        timer = 5f;
+        timer = 15f;
         if (markers.Length > 0)
         {
             for (int i = 0; i < markers.Length; i++)
@@ -45,7 +45,7 @@ public class markerHandler : MonoBehaviour
             if (voiceLine != null)
             {
                 idleStop.Post(currentMarker);
-                
+                timer = 15f;
                 voiceLine.Post(currentMarker);
             }
         }
@@ -56,7 +56,7 @@ public class markerHandler : MonoBehaviour
         if (currentMarker != null && timer <= 0)
         {
             idleLine.Post(currentMarker);
-            timer = 5f;
+            timer = 15f;
         }
         timer = Mathf.Max(0, timer - Time.deltaTime);
     }
