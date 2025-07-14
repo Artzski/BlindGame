@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584497950936351990
+    m_lastTime: -8584491584763437248
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584497950936419340
+    m_lastTime: -8584491584906865380
     List:
     - name: Marker Events
       guid: cdf799659456f442ae00a102195e8ae6
@@ -164,6 +164,57 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 2.9790788
       minDuration: 1.3784077
+    - name: Play_Car_Screech
+      guid: c0135236f5112648a98677637d425275
+      id: 3700354250
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Car_Screech
+        ObjectType: 3
+        guid: c0135236f5112648a98677637d425275
+      Path: Events\Default Work Unit\Play_Car_Screech
+      maxAttenuation: 0
+      maxDuration: 0.5310368
+      minDuration: 0.5310368
+    - name: Play_Car_Sound
+      guid: 4c70a28e2ac84f45b39a37929b91d3a9
+      id: 1756269068
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Car_Sound
+        ObjectType: 3
+        guid: 4c70a28e2ac84f45b39a37929b91d3a9
+      Path: Events\Default Work Unit\Play_Car_Sound
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Door_Sound
+      guid: 67f2c7afa86cb34abe349dbb5610cdca
+      id: 1258470994
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Door_Sound
+        ObjectType: 3
+        guid: 67f2c7afa86cb34abe349dbb5610cdca
+      Path: Events\Default Work Unit\Play_Door_Sound
+      maxAttenuation: 50
+      maxDuration: 1.4767581
+      minDuration: 1.4767581
     - name: Play_Idle_Random
       guid: 0ec923361dd83d4bb09752e5491baf2c
       id: 3926932734
@@ -321,6 +372,40 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 2.196487
       minDuration: 2.196487
+    - name: Play_Outside_Amb
+      guid: 6f28030b0eb57d41ba46f605d2acdc36
+      id: 2557511950
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Outside_Amb
+        ObjectType: 3
+        guid: 6f28030b0eb57d41ba46f605d2acdc36
+      Path: Events\Default Work Unit\Play_Outside_Amb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Outside_Wind_Only
+      guid: a2c2f2f8f3a91a40ad04e72cf791e5e6
+      id: 2166344645
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Outside_Wind_Only
+        ObjectType: 3
+        guid: a2c2f2f8f3a91a40ad04e72cf791e5e6
+      Path: Events\Default Work Unit\Play_Outside_Wind_Only
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Playground_Entrance_1
       guid: f8cfc278c4395444ae8e853b542ad2b1
       id: 3564523758
@@ -398,6 +483,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 80.159004
       minDuration: 80.159004
+    - name: Stop_Car_Sound
+      guid: 1ca64eb475079e47928de45e526604f8
+      id: 3152558286
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Stop_Car_Sound
+        ObjectType: 3
+        guid: 1ca64eb475079e47928de45e526604f8
+      Path: Events\Default Work Unit\Stop_Car_Sound
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Idle_Random
       guid: 9a1136247237f14885a14ef858fdde71
       id: 1534226704
@@ -486,7 +588,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000b0000000c0000000e0000000f00000014000000150000001700000018000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000b0000000c0000000e0000000f00000014000000150000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

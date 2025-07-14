@@ -6,13 +6,12 @@ public class doorScript : MonoBehaviour
 {
     public GameObject door;
     public AK.Wwise.Event doorNoise;
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            door.SetActive(false);
-            doorNoise.Post(door);
-            this.gameObject.SetActive(false);
+            Destroy(door);
+            doorNoise.Post(gameObject);
         }
     }
 }

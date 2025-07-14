@@ -16,6 +16,7 @@ public class CarScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.velocity = transform.forward * speed;
+        carNoiseStart.Post(gameObject);
     }
 
     void FixedUpdate()

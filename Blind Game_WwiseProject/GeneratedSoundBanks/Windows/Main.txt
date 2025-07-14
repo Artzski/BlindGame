@@ -4,32 +4,48 @@ Event	ID	Name			Wwise Object Path	Notes
 	1018931592	Play_M5_1			\Default Work Unit\Marker Events\Play_M5_1	
 	1019328982	Play_M7_1			\Default Work Unit\Marker Events\Play_M7_1	
 	1019476047	Play_M6_1			\Default Work Unit\Marker Events\Play_M6_1	
+	1258470994	Play_Door_Sound			\Default Work Unit\Play_Door_Sound	
 	1534226704	Stop_Idle_Random			\Default Work Unit\Stop_Idle_Random	
+	1756269068	Play_Car_Sound			\Default Work Unit\Play_Car_Sound	
 	2092405114	Play_M3_1			\Default Work Unit\Marker Events\Play_M3_1	
 	2092846369	Play_M4_1			\Default Work Unit\Marker Events\Play_M4_1	
+	2166344645	Play_Outside_Wind_Only			\Default Work Unit\Play_Outside_Wind_Only	
+	2557511950	Play_Outside_Amb			\Default Work Unit\Play_Outside_Amb	
+	3152558286	Stop_Car_Sound			\Default Work Unit\Stop_Car_Sound	
 	3564523758	Play_Playground_Entrance_1			\Default Work Unit\Marker Events\Play_Playground_Entrance_1	
 	3645412592	Play_Car_Hit_Random			\Default Work Unit\Play_Car_Hit_Random	
+	3700354250	Play_Car_Screech			\Default Work Unit\Play_Car_Screech	
 	3926932734	Play_Idle_Random			\Default Work Unit\Play_Idle_Random	
 	4004380620	Play_Road_1_1			\Default Work Unit\Marker Events\Play_Road_1_1	
 	4004925171	Play_Road_2_1			\Default Work Unit\Marker Events\Play_Road_2_1	
 	4263315066	Play_Sister_s_Room__FULL_			\Default Work Unit\Play_Sister_s_Room__FULL_	
 
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5895167	M6_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M6_1_158336F1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M6_1		74598
+	42348704	Outside Ambience 1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Outside Ambience 1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outside Amb Rand\Outside Ambience 1		2745000
 	42558266	M2_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M2_1_69F4BFCD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M2_1		260152
 	50117545	Playground Entrance_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Playground Entrance_1_92C82F5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Playground Entrance_1		221154
 	59219686	Road 1_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Road 1_1_CB99E967.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Road 1_1		243772
 	91783836	M4_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M4_1_86A85D9C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M4_1		316390
 	147523988	Road 2_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Road 2_1_D710F5E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Road 2_1		538344
+	155656626	Door Sound	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Door_Open_and_Close_Sound_Effects_58C433A2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Door Sound		283636
+	163071341	Outside Ambience(Just Wind)	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Outside Ambience(Just Wind)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outside Amb Rand\Outside Ambience(Just Wind)		2617736
+	182484070	Car Screech	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Car Screech_0345144F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car Screech		93772
 	325146162	Car Hit 1_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Car Hit 1_1_22FCD28B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Car Hit Random\Car Hit 1_1		286152
+	340291589	Outside Ambience 2	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Outside Ambience 2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outside Amb Rand\Outside Ambience 2		2617736
 	407779606	Idle 1_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Idle 1_1_C0A6C755.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Idle Random Container\Idle 1_1		120590
 	521523744	M7_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M7_1_E063F1C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M7_1		211022
 	577159097	M1_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M1_1_0BBB33D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M1_1		441186
+	587738569	Car Sound	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Car Sound_15D6AD95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Car Sound		292416
 	712187636	Sister's Room (FULL)	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Sister's Room (FULL)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Sister's Room (FULL)		14140144
 	714759025	Idle 2_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Idle 2_1_208944F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Idle Random Container\Idle 2_1		129528
 	779842558	Idle 3_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Idle 3_1_79F41F63.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Idle Random Container\Idle 3_1		110098
 	829595835	M3_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M3_1_20C4BC1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M3_1		226916
 	843771257	M5_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\M5_1_3CAF105C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\M5_1		180298
 	874353328	Idle 4_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Idle 4_1_1F97E041.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Idle Random Container\Idle 4_1		151788
+	954408907	Outside Ambience(Just Wind)_01	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Outside Ambience(Just Wind)_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outside Ambience(Just Wind)_01		2617736
 	1015973906	Car Hit 2_1	C:\Users\jackt\OneDrive\Documents\GitHub\BlindGame\Blind Game_WwiseProject\.cache\Windows\SFX\Main (pre-playground)\Car Hit 2_1_DBF921C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voicelines\Main (pre-playground)\Car Hit Random\Car Hit 2_1		132422
 

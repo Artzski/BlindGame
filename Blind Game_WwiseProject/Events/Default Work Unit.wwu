@@ -164,6 +164,75 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Door_Sound" ID="{AFC7F267-6CA8-4AB3-BE34-9DBB5610CDCA}">
+					<ChildrenList>
+						<Action Name="" ID="{576F93E8-E81D-4A2A-8EDC-B669AA8F3367}" ShortID="824547762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door Sound" ID="{91752A08-2E53-467A-B52E-7847F4841AAE}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Outside_Amb" ID="{0B03286F-B50E-417D-BA46-F605D2ACDC36}">
+					<ChildrenList>
+						<Action Name="" ID="{4AD3BCBA-2FE0-4623-A5ED-D1E5F0EE090B}" ShortID="167494626">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outside Amb Rand" ID="{D9354815-D232-4A46-8C67-4618684DEF15}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Outside_Wind_Only" ID="{F8F2C2A2-A9F3-401A-AD04-E72CF791E5E6}">
+					<ChildrenList>
+						<Action Name="" ID="{C52452DF-5510-424C-885A-ED5FEEAC5974}" ShortID="323826846">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Outside Ambience(Just Wind)_01" ID="{5AC23D40-D1ED-4F72-BEA2-056F489242AE}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Car_Sound" ID="{8EA2704C-C82A-454F-B39A-37929B91D3A9}">
+					<ChildrenList>
+						<Action Name="" ID="{1D4B61D2-1085-4402-AF52-07FC844BE67D}" ShortID="535937474">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car Sound" ID="{B30A8B02-7F36-4667-802B-74E9D896397E}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Car_Sound" ID="{B44EA61C-0775-479E-928D-E45E526604F8}">
+					<ChildrenList>
+						<Action Name="" ID="{90E2B876-0084-4AC8-83A1-FD9E34154118}" ShortID="412254249">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car Sound" ID="{B30A8B02-7F36-4667-802B-74E9D896397E}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Car_Screech" ID="{365213C0-11F5-4826-A986-77637D425275}">
+					<ChildrenList>
+						<Action Name="" ID="{2B470C3D-F0CF-4255-9A7E-34F4CFE52AA5}" ShortID="281895039">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Car Screech" ID="{259A22C7-6EC9-432B-A2E8-67347AF8FBCB}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

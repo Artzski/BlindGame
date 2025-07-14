@@ -123,15 +123,15 @@ MonoBehaviour:
   carScreech:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 500217bce4354ea4b929b0760611ec06, type: 2}
   carNoiseStart:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 34570ef71335ee740b1b0c99ae16881d, type: 2}
   carNoiseStop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 22613c9a99941b44ca0a222a22fb4cb4, type: 2}
   playerDetected: 0
 --- !u!54 &101696263336570349
 Rigidbody:

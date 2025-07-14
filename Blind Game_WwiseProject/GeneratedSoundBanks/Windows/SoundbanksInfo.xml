@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{35E08760-6F39-3326-72FD-6D227E016B44}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{48E86F07-183F-3868-D3FF-806585BF21E2}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -38,13 +38,17 @@
 				<GameParameter Id="1674544969" Name="EdgeTimer"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{10BE88C9-E4CA-E578-6BE8-0D7203A2738D}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{05B6B5F1-DE13-4737-D8FD-8C6D6DAC405B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="5895167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M6_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/M6_1_158336F1.wem</CachePath>
+				</File>
+				<File Id="42348704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience 1.wav</ShortName>
+					<CachePath>SFX/Outside Ambience 1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="42558266" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M2_1.wav</ShortName>
@@ -66,9 +70,25 @@
 					<ShortName>Main (pre-playground)\Road 2_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Road 2_1_D710F5E2.wem</CachePath>
 				</File>
+				<File Id="155656626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Open_and_Close_Sound_Effects.wav</ShortName>
+					<CachePath>SFX/Door_Open_and_Close_Sound_Effects_58C433A2.wem</CachePath>
+				</File>
+				<File Id="163071341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience(Just Wind).wav</ShortName>
+					<CachePath>SFX/Outside Ambience(Just Wind)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="182484070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Car Screech.wav</ShortName>
+					<CachePath>SFX/Car Screech_0345144F.wem</CachePath>
+				</File>
 				<File Id="325146162" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Car Hit 1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Car Hit 1_1_22FCD28B.wem</CachePath>
+				</File>
+				<File Id="340291589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience 2.wav</ShortName>
+					<CachePath>SFX/Outside Ambience 2_818F3B66.wem</CachePath>
 				</File>
 				<File Id="407779606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 1_1.wav</ShortName>
@@ -81,6 +101,10 @@
 				<File Id="577159097" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/M1_1_0BBB33D8.wem</CachePath>
+				</File>
+				<File Id="587738569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Car Sound.wav</ShortName>
+					<CachePath>SFX/Car Sound_15D6AD95.wem</CachePath>
 				</File>
 				<File Id="712187636" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sister's Room (FULL).wav</ShortName>
@@ -106,11 +130,20 @@
 					<ShortName>Main (pre-playground)\Idle 4_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 4_1_1F97E041.wem</CachePath>
 				</File>
+				<File Id="954408907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience(Just Wind).wav</ShortName>
+					<CachePath>SFX/Outside Ambience(Just Wind)_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="1015973906" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Car Hit 2_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Car Hit 2_1_DBF921C9.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1008402193" Name="Low_Pass_20KHz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
 			<Events>
 				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
 					<MediaRefs>
@@ -120,6 +153,21 @@
 					<AuxBusRefs>
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
+				</Event>
+				<Event Id="3700354250" Name="Play_Car_Screech" DurationType="OneShot" DurationMin="0.5310368" DurationMax="0.5310368">
+					<MediaRefs>
+						<MediaRef Id="182484070"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1756269068" Name="Play_Car_Sound" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="587738569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1258470994" Name="Play_Door_Sound" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4767581" DurationMax="1.4767581">
+					<MediaRefs>
+						<MediaRef Id="155656626"/>
+					</MediaRefs>
 				</Event>
 				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
 					<MediaRefs>
@@ -188,6 +236,28 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
+				<Event Id="2557511950" Name="Play_Outside_Amb" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="42348704"/>
+						<MediaRef Id="163071341"/>
+						<MediaRef Id="340291589"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2166344645" Name="Play_Outside_Wind_Only" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="954408907"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
 				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
 					<MediaRefs>
 						<MediaRef Id="50117545"/>
@@ -217,9 +287,10 @@
 						<MediaRef Id="712187636"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3152558286" Name="Stop_Car_Sound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1534226704" Name="Stop_Idle_Random" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3E1B7EC8-A2ED-0AAA-FBE6-B7B5AE2E15B9}</FileHash>
+	<FileHash>{90693750-DA1A-25DB-70C7-761FFDAA4B6F}</FileHash>
 </SoundBanksInfo>
