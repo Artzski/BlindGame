@@ -38,13 +38,17 @@
 				<GameParameter Id="1674544969" Name="EdgeTimer"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{05B6B5F1-DE13-4737-D8FD-8C6D6DAC405B}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B5A13A88-AA06-7F09-9753-A39080638671}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="5895167" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M6_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/M6_1_158336F1.wem</CachePath>
+				</File>
+				<File Id="10848318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_6F2E3755.wem</CachePath>
 				</File>
 				<File Id="42348704" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Outside Ambience 1.wav</ShortName>
@@ -65,6 +69,10 @@
 				<File Id="91783836" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M4_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/M4_1_86A85D9C.wem</CachePath>
+				</File>
+				<File Id="145950095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_78032D9D.wem</CachePath>
 				</File>
 				<File Id="147523988" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Road 2_1.wav</ShortName>
@@ -90,9 +98,17 @@
 					<ShortName>Outside Ambience 2.wav</ShortName>
 					<CachePath>SFX/Outside Ambience 2_818F3B66.wem</CachePath>
 				</File>
+				<File Id="388206433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_D6BA1BBB.wem</CachePath>
+				</File>
 				<File Id="407779606" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 1_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 1_1_C0A6C755.wem</CachePath>
+				</File>
+				<File Id="505195033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_157C0B1C.wem</CachePath>
 				</File>
 				<File Id="521523744" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\M7_1.wav</ShortName>
@@ -113,6 +129,10 @@
 				<File Id="714759025" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 2_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 2_1_208944F5.wem</CachePath>
+				</File>
+				<File Id="754453767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_B6151C8C.wem</CachePath>
 				</File>
 				<File Id="779842558" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Main (pre-playground)\Idle 3_1.wav</ShortName>
@@ -138,6 +158,14 @@
 					<ShortName>Main (pre-playground)\Car Hit 2_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Car Hit 2_1_DBF921C9.wem</CachePath>
 				</File>
+				<File Id="1022515236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_F91D3D7A.wem</CachePath>
+				</File>
+				<File Id="1069298539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_2ACFE42F.wem</CachePath>
+				</File>
 			</Media>
 			<Plugins>
 				<ShareSets>
@@ -154,12 +182,12 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3700354250" Name="Play_Car_Screech" DurationType="OneShot" DurationMin="0.5310368" DurationMax="0.5310368">
+				<Event Id="3700354250" Name="Play_Car_Screech" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.5310368" DurationMax="0.5310368">
 					<MediaRefs>
 						<MediaRef Id="182484070"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1756269068" Name="Play_Car_Sound" MaxAttenuation="100" DurationType="Infinite">
+				<Event Id="1756269068" Name="Play_Car_Sound" MaxAttenuation="50" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="587738569"/>
 					</MediaRefs>
@@ -167,6 +195,17 @@
 				<Event Id="1258470994" Name="Play_Door_Sound" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4767581" DurationMax="1.4767581">
 					<MediaRefs>
 						<MediaRef Id="155656626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2238739690" Name="Play_Footstep_Random" DurationType="OneShot" DurationMin="0.38626286" DurationMax="1.0730652">
+					<MediaRefs>
+						<MediaRef Id="10848318"/>
+						<MediaRef Id="145950095"/>
+						<MediaRef Id="388206433"/>
+						<MediaRef Id="505195033"/>
+						<MediaRef Id="754453767"/>
+						<MediaRef Id="1022515236"/>
+						<MediaRef Id="1069298539"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
@@ -292,5 +331,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{333834C0-7A0C-7457-771F-FA1C37D99301}</FileHash>
+	<FileHash>{BC4C1080-6B13-CB91-C5F7-7054393E88A6}</FileHash>
 </SoundBanksInfo>

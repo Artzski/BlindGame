@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 7400682140935015540}
   - component: {fileID: 2343815973640849508}
   - component: {fileID: 9025340856045527424}
+  - component: {fileID: 5190328037887056149}
+  - component: {fileID: 8542271122809247377}
+  - component: {fileID: 6168050989158517771}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -123,6 +126,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   gravity: -9.81
+  markers: []
+  visitedSistersRoom: 0
+  visitedPlayground: 0
+  idleStop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  rb: {fileID: 0}
+  heartbeatVolume:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 683477b63c6c08d4ab507b85c8641a0d, type: 2}
 --- !u!143 &2343815973640849508
 CharacterController:
   m_ObjectHideFlags: 0
@@ -176,6 +191,53 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &5190328037887056149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201303443361142086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c590d5c264702945a598754c7d325c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8542271122809247377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201303443361142086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3325daf633f5dfb419a61566ad3751fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &6168050989158517771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201303443361142086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0152f684baa220e44a19d3324887c85f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
 --- !u!1 &2466125795891110035
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +485,7 @@ GameObject:
   - component: {fileID: 3086831614541986302}
   m_Layer: 0
   m_Name: Blindfold
-  m_TagString: Untagged
+  m_TagString: Blindfold
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

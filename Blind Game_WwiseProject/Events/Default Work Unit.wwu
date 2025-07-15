@@ -233,6 +233,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Footstep_Random" ID="{35F15B85-ED37-446C-BEFA-57906AB8A37D}">
+					<ChildrenList>
+						<Action Name="" ID="{F987A178-D21D-4551-98C3-899189C0A12A}" ShortID="246297748">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep Random" ID="{D9C509B4-53F1-4E77-B462-8C386DF19C20}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

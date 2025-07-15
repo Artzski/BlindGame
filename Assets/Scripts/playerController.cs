@@ -54,6 +54,12 @@ public class playerController : MonoBehaviour
     }
     void Update()
     {
+        if (PauseMenu.isPaused)
+        {
+            velocity = Vector3.zero; // Reset velocity when paused
+            return; // Do nothing if paused
+        }
+            
 
         // Get input for movement
         float moveX = Input.GetAxis("Horizontal");

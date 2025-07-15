@@ -15,6 +15,7 @@
 						<ObjectRef Name="Play_Car_Hit_Random" ID="{C99EF87D-D7FF-4391-B9CB-625B15D1F593}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Road_1_1" ID="{3D3BD543-950D-43BC-8BA9-93BC1AFA8588}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Playground_Entrance_1" ID="{78C2CFF8-39C4-4454-AE8E-853B542AD2B1}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footstep_Random" ID="{35F15B85-ED37-446C-BEFA-57906AB8A37D}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Car_Sound" ID="{8EA2704C-C82A-454F-B39A-37929B91D3A9}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Car_Sound" ID="{B44EA61C-0775-479E-928D-E45E526604F8}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M4_1" ID="{47B5C0BA-3639-48CE-9232-3FFE65538F45}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>

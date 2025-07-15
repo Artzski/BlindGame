@@ -56,7 +56,7 @@ public class markerHandler : MonoBehaviour
         if (currentMarker != null && timer <= 0)
         {
             idleLine.Post(currentMarker);
-            timer = 15f;
+            timer = 10f;
         }
         timer = Mathf.Max(0, timer - Time.deltaTime);
     }

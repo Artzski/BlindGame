@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PostSistersRoom.unity
     guid: 390e86a1184cbdb40a93023e7b95fe6c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: f14884010416d064aad7c4f5489ce667
   m_configObjects: {}

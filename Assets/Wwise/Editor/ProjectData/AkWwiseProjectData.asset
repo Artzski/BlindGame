@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584491584763437248
+    m_lastTime: -8584491202140223708
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584491584906865380
+    m_lastTime: -8584491202140279488
     List:
     - name: Marker Events
       guid: cdf799659456f442ae00a102195e8ae6
@@ -178,7 +178,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c0135236f5112648a98677637d425275
       Path: Events\Default Work Unit\Play_Car_Screech
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: 0.5310368
       minDuration: 0.5310368
     - name: Play_Car_Sound
@@ -195,7 +195,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4c70a28e2ac84f45b39a37929b91d3a9
       Path: Events\Default Work Unit\Play_Car_Sound
-      maxAttenuation: 100
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Play_Door_Sound
@@ -215,6 +215,23 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 1.4767581
       minDuration: 1.4767581
+    - name: Play_Footstep_Random
+      guid: 855bf13537ed6c44befa57906ab8a37d
+      id: 2238739690
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Footstep_Random
+        ObjectType: 3
+        guid: 855bf13537ed6c44befa57906ab8a37d
+      Path: Events\Default Work Unit\Play_Footstep_Random
+      maxAttenuation: 0
+      maxDuration: 1.0730652
+      minDuration: 0.38626286
     - name: Play_Idle_Random
       guid: 0ec923361dd83d4bb09752e5491baf2c
       id: 3926932734
@@ -588,7 +605,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000b0000000c0000000e0000000f00000014000000150000001700000018000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000b0000000c0000000e0000000f000000140000001500000017000000180000001e0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
