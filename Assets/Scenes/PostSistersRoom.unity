@@ -1094,7 +1094,6 @@ Transform:
   - {fileID: 128114138}
   - {fileID: 981309166}
   - {fileID: 1428156665}
-  - {fileID: 1301764914}
   m_Father: {fileID: 264609897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &191265692
@@ -1624,8 +1623,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366975125}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 11.97, y: 0, z: 13.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1641,7 +1640,7 @@ Transform:
   - {fileID: 570619325}
   - {fileID: 182602802}
   - {fileID: 362010996}
-  m_Father: {fileID: 735169839}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &375338211
 GameObject:
@@ -3691,7 +3690,6 @@ Transform:
   - {fileID: 512173491}
   - {fileID: 1267181241}
   - {fileID: 1732547857}
-  - {fileID: 366975126}
   - {fileID: 1943683714}
   m_Father: {fileID: 264609897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6648,37 +6646,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
---- !u!1 &1301764913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1301764914}
-  m_Layer: 0
-  m_Name: SafetyWalls
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1301764914
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301764913}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 191265691}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1309481988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8324,7 +8291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1760985078
 Transform:
   m_ObjectHideFlags: 0
@@ -10710,15 +10677,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 327995032226472708, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.46
+      value: 17.4
       objectReference: {fileID: 0}
     - target: {fileID: 327995032226472708, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.15
+      value: 6.2
       objectReference: {fileID: 0}
     - target: {fileID: 327995032226472708, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.2
+      value: 21.22
       objectReference: {fileID: 0}
     - target: {fileID: 327995032226472708, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -10768,7 +10735,8 @@ PrefabInstance:
       propertyPath: heartbeatVolume.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 683477b63c6c08d4ab507b85c8641a0d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5639522826377311094, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
     m_RemovedGameObjects:
     - {fileID: 4119499504877863977, guid: 4ddce072473e5af4db2d69aa9afa69c5, type: 3}
     m_AddedGameObjects: []
@@ -10792,3 +10760,4 @@ SceneRoots:
   - {fileID: 1460587484}
   - {fileID: 761301428}
   - {fileID: 663460431}
+  - {fileID: 366975126}

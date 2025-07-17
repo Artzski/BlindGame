@@ -10,7 +10,9 @@ public class CarScript : MonoBehaviour
     public AK.Wwise.Event carScreech;
     public AK.Wwise.Event carNoiseStart;
     public AK.Wwise.Event carNoiseStop;
+    public AK.Wwise.Event tryAgain;
     public bool playerDetected = false;
+    public GameObject roadMarker2;
 
     void Start()
     {
@@ -48,6 +50,11 @@ public class CarScript : MonoBehaviour
             carScreech.Post(gameObject);
 
             playerDetected = true;
+
+            tryAgain.Post(roadMarker2);
+            other.gameObject.GetComponent<CharacterController>().enabled = false;
+            other.gameObject.transform.position = new Vector3(1.23f, 1.56f, 10.83f);
+            other.gameObject.GetComponent<CharacterController>().enabled = true;
         }
         if (other.CompareTag("CarDespawnWall"))
         {

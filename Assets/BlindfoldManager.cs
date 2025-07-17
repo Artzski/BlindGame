@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BlindfoldManager : MonoBehaviour
 {
-    public static GameObject blindfold;
+    public GameObject blindfold;
     void Start()
     {
         blindfold = GameObject.Find("Blindfold");

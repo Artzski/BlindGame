@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class BlindfoldRemover : MonoBehaviour
 {
-    public GameObject blindfoldManager;
+    public BlindfoldManager blindfoldManager;
     public GameObject player;
     void Start()
     {
         if (blindfoldManager == null)
         {
-            blindfoldManager = GameObject.FindWithTag("Blindfold");
+            blindfoldManager = GameObject.FindWithTag("Blindfold").GetComponent<BlindfoldManager>(); ;
             Debug.Log("Blindfold found:");
         }
         if (player == null)
@@ -22,15 +22,17 @@ public class BlindfoldRemover : MonoBehaviour
     }
     public void blindfoldToggle()
     {
-        if (BlindfoldManager.blindfold.activeSelf)
+
+
+        if (blindfoldManager.blindfold.activeSelf)
         {
             // The object is active
-            BlindfoldManager.blindfold.SetActive(false);
+            blindfoldManager.blindfold.SetActive(false);
         }
         else
         {
             // The object is inactive
-            BlindfoldManager.blindfold.SetActive(true);
+            blindfoldManager.blindfold.SetActive(true);
         }
     }
     public void closeGame()
