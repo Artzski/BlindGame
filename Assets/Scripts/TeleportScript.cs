@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class TeleportScript : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             if (this.gameObject.CompareTag("PlaygroundTP"))
             {
@@ -16,6 +16,7 @@ public class TeleportScript : MonoBehaviour
             if (this.gameObject.CompareTag("GoingHomeTP"))
             {
                 SceneManager.LoadScene("GoingHome");
+                other.gameObject.GetComponent<playerController>().visitedPlayground = true;
             }
             if (this.gameObject.CompareTag("EndingTP"))
             {

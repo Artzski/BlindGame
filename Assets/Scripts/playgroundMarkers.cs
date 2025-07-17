@@ -22,7 +22,7 @@ public class playgroundMarkers : MonoBehaviour
         if ((this.gameObject.activeSelf == true) && (idleVoiceTimer == 0))
         {
             idleLine.Post(gameObject);
-            idleVoiceTimer = 5;
+            idleVoiceTimer = 7;
         }
         idleVoiceTimer = Mathf.Max(0, idleVoiceTimer - Time.deltaTime);
     }

@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CarScript : MonoBehaviour
 {
@@ -13,17 +15,21 @@ public class CarScript : MonoBehaviour
     public AK.Wwise.Event tryAgain;
     public bool playerDetected = false;
     public GameObject roadMarker2;
+    private GameObject markerHandler;
+    private bool afterPark = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.velocity = transform.forward * speed;
         carNoiseStart.Post(gameObject);
-    }
-
-    void FixedUpdate()
-    {
-        
+        roadMarker2 = GameObject.Find("M2");
+        if (roadMarker2 == null)
+        {
+            roadMarker2 = GameObject.Find("M4");
+            afterPark = true;
+        }
+        markerHandler = GameObject.Find("Marker Handler");
     }
 
     private void Update()
@@ -45,16 +51,28 @@ public class CarScript : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (markerHandler != null)
+            {
+                markerHandler.GetComponent<markerHandler>().timer = 7f;
+            }
             Debug.Log("crash");
             carNoiseStop.Post(gameObject);
             carScreech.Post(gameObject);
 
             playerDetected = true;
-
             tryAgain.Post(roadMarker2);
-            other.gameObject.GetComponent<CharacterController>().enabled = false;
-            other.gameObject.transform.position = new Vector3(1.23f, 1.56f, 10.83f);
-            other.gameObject.GetComponent<CharacterController>().enabled = true;
+            if (afterPark)
+            {
+                other.gameObject.GetComponent<CharacterController>().enabled = false;
+                other.gameObject.transform.position = new Vector3(-10f, 1.56f, -12f);
+                other.gameObject.GetComponent<CharacterController>().enabled = true;
+            }
+            else //afterPark is false
+            {
+                other.gameObject.GetComponent<CharacterController>().enabled = false;
+                other.gameObject.transform.position = new Vector3(1.23f, 1.56f, 10.83f);
+                other.gameObject.GetComponent<CharacterController>().enabled = true;
+            }
         }
         if (other.CompareTag("CarDespawnWall"))
         {

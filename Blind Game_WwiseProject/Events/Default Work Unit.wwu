@@ -244,6 +244,105 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Playground_intro_1" ID="{3FFC8664-E848-4ACF-884C-D212016F7C05}">
+					<ChildrenList>
+						<Action Name="" ID="{7603D5E3-D5FC-45A7-97DB-177EDC9F3381}" ShortID="185775592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Playground intro_1" ID="{517EAD5C-CCAC-4D38-90B7-433E7AF8CD96}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Heartbeat" ID="{A44E7EE4-8485-44F9-9775-99A9787DD087}">
+					<ChildrenList>
+						<Action Name="" ID="{93155606-E64B-45FC-93F2-991366F14C59}" ShortID="447869033">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heartbeat" ID="{17A38B2B-5746-4BD3-B0BD-9605EAFB91D4}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Leaving_Voiceline_1" ID="{B7FE1894-7391-4D9E-B6B5-176A51DEEB13}">
+					<ChildrenList>
+						<Action Name="" ID="{A73971CE-A5C0-4DCF-B202-158CF94F1502}" ShortID="297627848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Leaving Voiceline_1" ID="{CBC6ECBA-39D7-4738-A71A-6E38CB883D26}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_tunnel_Voice_Line_1" ID="{80E2D0EE-A5BF-4BCA-A168-A6CAF40DC32A}">
+					<ChildrenList>
+						<Action Name="" ID="{078E1D02-624A-4827-99B4-83E7EA549169}" ShortID="948736488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tunnel Voice Line_1" ID="{96B51866-8C56-4BC4-B54B-3E4C42025A37}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LoopingPlaygroundAmbience" ID="{FF8BAD45-C6AD-423A-846E-804FC3479F45}">
+					<ChildrenList>
+						<Action Name="" ID="{78C5F65D-2D4B-4708-BC4E-E2DF61B08203}" ShortID="798274838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LoopingPlaygroundAmbience" ID="{50FEF887-2BF4-4914-B673-7B7DE1A7E71C}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Act_3_Roadside_1" ID="{23908901-5F9E-4CF1-96C1-55255B0FFF16}">
+					<ChildrenList>
+						<Action Name="" ID="{4B34E76C-1D01-4BCC-848F-9779D1E6E36D}" ShortID="1050185736">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act 3 Roadside_1" ID="{867E7B17-768A-469F-B1EE-4CD80DA2978E}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Act_3_Road_2_1" ID="{38352756-F9AB-4031-8B42-5790BD7DBA0C}">
+					<ChildrenList>
+						<Action Name="" ID="{3B03AF8C-FDEC-446F-9FB5-E88701911109}" ShortID="845878282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act 3 Road 2_1" ID="{34F8C6F0-6BAC-42B3-94FC-9348155F3EFF}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Act_3_Parent_Line_1" ID="{F02A2A43-18BE-4B13-BA78-7A7F387E2B1A}">
+					<ChildrenList>
+						<Action Name="" ID="{6AAB6B6E-2DDB-4915-A516-66F23203185D}" ShortID="927264482">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act 3 Parent Line_1" ID="{D5257AFF-931B-4B2C-B09C-1F7B581667ED}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Act3_House1" ID="{1D0BB1A0-3920-457C-8240-CE8ABDB2BE21}">
+					<ChildrenList>
+						<Action Name="" ID="{89CD874D-D5C6-48CC-8F0B-F3A30BA41D8D}" ShortID="742745709">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Act3 House1" ID="{7D257611-EB6E-469A-B212-015C0C6F8FBF}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

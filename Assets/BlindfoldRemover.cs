@@ -22,24 +22,17 @@ public class BlindfoldRemover : MonoBehaviour
     }
     public void blindfoldToggle()
     {
-
-
-        if (blindfoldManager.blindfold.activeSelf)
-        {
-            // The object is active
-            blindfoldManager.blindfold.SetActive(false);
-        }
-        else
-        {
-            // The object is inactive
-            blindfoldManager.blindfold.SetActive(true);
-        }
+        blindfoldManager.blindfold.SetActive(!blindfoldManager.blindfold.activeSelf);
     }
     public void closeGame()
     {
         Application.Quit();
     }
 
+    public void restart()
+    {
+        SceneManager.LoadScene("Main");
+    }
     public void resumeGame()
     {
         if(player != null && player.GetComponent<PauseMenu>() != null)

@@ -12,7 +12,7 @@ public class markerHandler : MonoBehaviour
     [SerializeField] private AK.Wwise.Event idleStop;
     private GameObject nextMarker;
     private int currentIndex = 0;
-    private float timer;
+    public float timer;
 
 
 
@@ -51,12 +51,20 @@ public class markerHandler : MonoBehaviour
         }
     }
 
+    public void PlaygroundReset()
+    {
+        currentMarker.SetActive(false);
+        currentIndex = 1;
+        currentMarker = markers[currentIndex];
+        markers[1].SetActive(true);
+
+    }
     private void Update()
     {
         if (currentMarker != null && timer <= 0)
         {
             idleLine.Post(currentMarker);
-            timer = 10f;
+            timer = 7f;
         }
         timer = Mathf.Max(0, timer - Time.deltaTime);
     }

@@ -3,94 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="Playground Ambience" ID="{6281A2C0-6D94-4E50-993B-395B58DF13E1}" ShortID="129917913">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
-						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Sound Name="Playground Ambience" ID="{6F48335F-4D80-4D28-948B-4DF122A67272}" ShortID="435876896">
-							<PropertyList>
-								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Playground Ambience" ID="{8526F140-C142-4FE5-8FA4-7700EC71CDC7}">
-									<Language>SFX</Language>
-									<AudioFile>Playground Ambience.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="582511692"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Playground Ambience" ID="{8526F140-C142-4FE5-8FA4-7700EC71CDC7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Playground Ambience 2" ID="{4B22EF68-1A4B-4E5F-8803-5457AB47E685}" ShortID="870083464">
-							<PropertyList>
-								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Playground Ambience 2" ID="{15161D7B-3DD9-4916-ACF5-3E2C00C2FAE4}">
-									<Language>SFX</Language>
-									<AudioFile>Playground Ambience 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="222340262"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Playground Ambience 2" ID="{15161D7B-3DD9-4916-ACF5-3E2C00C2FAE4}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="Playlist">
-							<Reference>
-								<ObjectRef Name="Playground Ambience" ID="{6F48335F-4D80-4D28-948B-4DF122A67272}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
-							</Reference>
-							<Reference>
-								<ObjectRef Name="Playground Ambience 2" ID="{4B22EF68-1A4B-4E5F-8803-5457AB47E685}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</RandomSequenceContainer>
 				<Folder Name="Voicelines" ID="{7A07EF97-672A-49E7-8225-796B0461043B}" ShortID="1057939192">
 					<ChildrenList>
 						<Folder Name="Main (pre-playground)" ID="{98EAD7AC-CA6C-4E2D-97A9-2F1A87F86613}" ShortID="232956760">
@@ -467,6 +379,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -619,6 +536,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Car Hit 1_1" ID="{0EA8D5DE-F8AE-4D0A-9CF3-7A06BC5691D2}" ShortID="438226054">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
@@ -740,37 +664,6 @@
 						</Folder>
 						<Folder Name="Playground And Act 3" ID="{0C2BC0EB-8106-47E3-8175-C905281439AC}" ShortID="238358169">
 							<ChildrenList>
-								<Sound Name="Act 3 House_1" ID="{EF566EAC-AEAA-4C60-BEBB-607D630A9D95}" ShortID="872126894">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-										<Reference Name="ReflectionsAuxSend">
-											<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Act 3 House_1" ID="{76B93AE8-2C33-4865-9E39-AB806F993F77}">
-											<Language>SFX</Language>
-											<AudioFile>Playground And Act 3\Act 3 House_1.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="275841036"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Act 3 House_1" ID="{76B93AE8-2C33-4865-9E39-AB806F993F77}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Act 3 Parent Line_1" ID="{D5257AFF-931B-4B2C-B09C-1F7B581667ED}" ShortID="5649868">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
@@ -867,6 +760,11 @@
 								<Sound Name="Leaving Voiceline_1" ID="{CBC6ECBA-39D7-4738-A71A-6E38CB883D26}" ShortID="311317817">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -964,6 +862,68 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="tunnel Voice Line_1" ID="{8A2DC6C7-1138-4B4F-AFF5-76D845A23984}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="LoopingPlaygroundAmbience" ID="{50FEF887-2BF4-4914-B673-7B7DE1A7E71C}" ShortID="372157238">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Playground Ambience" ID="{140ACA0E-2747-449D-86AA-E014558EC1C5}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LoopingPlaygroundAmbience" ID="{5A3E8E3F-0DA4-43BE-9080-FF0F05AE169D}">
+											<Language>SFX</Language>
+											<AudioFile>LoopingPlaygroundAmbience.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="443952319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="LoopingPlaygroundAmbience" ID="{5A3E8E3F-0DA4-43BE-9080-FF0F05AE169D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Act3 House1" ID="{7D257611-EB6E-469A-B212-015C0C6F8FBF}" ShortID="700459361">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sister Voicelines" ID="{08BE342F-E210-481E-B3EA-B7D050290A3D}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Act3 House1" ID="{585273CF-A9E9-4E34-90F1-7A9FE49AFE62}">
+											<Language>SFX</Language>
+											<AudioFile>Act3 House1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="944116876"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Act3 House1" ID="{585273CF-A9E9-4E34-90F1-7A9FE49AFE62}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1220,6 +1180,11 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -1227,6 +1192,9 @@
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -1428,6 +1396,70 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Heartbeat" ID="{17A38B2B-5746-4BD3-B0BD-9605EAFB91D4}" ShortID="468835335">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Heartbeat" ID="{B61E2413-BE2C-453F-8A74-F21E494CDD27}">
+							<Language>SFX</Language>
+							<AudioFile>Heartbeat.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="39828516"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{6CC2404E-CFC0-46E2-AFC8-FF8480C9B98D}" ShortID="765222336">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="EdgeTimer" ID="{101E0E86-E509-4018-88DE-715A199853C7}" WorkUnitID="{C5BF2EB2-48BE-4A7A-BF32-BFE2898A0598}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{B4D91BC5-0FE8-417C-A34A-313EFAFB967F}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>0.03496</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="Heartbeat" ID="{B61E2413-BE2C-453F-8A74-F21E494CDD27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

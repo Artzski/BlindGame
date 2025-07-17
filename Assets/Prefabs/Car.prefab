@@ -132,7 +132,12 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 22613c9a99941b44ca0a222a22fb4cb4, type: 2}
+  tryAgain:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1d8e2d5e14ce7d1438eb3c92decd1b1f, type: 2}
   playerDetected: 0
+  roadMarker2: {fileID: 0}
 --- !u!54 &101696263336570349
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 63320c210b012b42bfa5bdbafd381a4e
     GuidInternal: 
-    m_lastTime: -8584521460132531584
+    m_lastTime: -8584488444202015466
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584491202140223708
+    m_lastTime: -8584488279108287463
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584491202140279488
+    m_lastTime: -8584488279108221894
     List:
     - name: Marker Events
       guid: cdf799659456f442ae00a102195e8ae6
@@ -147,6 +147,74 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Act_3_Parent_Line_1
+      guid: 432a2af0be18134bba787a7f387e2b1a
+      id: 3889060588
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Act_3_Parent_Line_1
+        ObjectType: 3
+        guid: 432a2af0be18134bba787a7f387e2b1a
+      Path: Events\Default Work Unit\Play_Act_3_Parent_Line_1
+      maxAttenuation: 50
+      maxDuration: 4.7786665
+      minDuration: 4.7786665
+    - name: Play_Act_3_Road_2_1
+      guid: 56273538abf931408b425790bd7dba0c
+      id: 2002940730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Act_3_Road_2_1
+        ObjectType: 3
+        guid: 56273538abf931408b425790bd7dba0c
+      Path: Events\Default Work Unit\Play_Act_3_Road_2_1
+      maxAttenuation: 50
+      maxDuration: 4.7786665
+      minDuration: 4.7786665
+    - name: Play_Act_3_Roadside_1
+      guid: 018990239e5ff14c96c155255b0fff16
+      id: 1489931248
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Act_3_Roadside_1
+        ObjectType: 3
+        guid: 018990239e5ff14c96c155255b0fff16
+      Path: Events\Default Work Unit\Play_Act_3_Roadside_1
+      maxAttenuation: 50
+      maxDuration: 4.7786665
+      minDuration: 4.7786665
+    - name: Play_Act3_House1
+      guid: a0b10b1d20397c458240ce8abdb2be21
+      id: 2867314425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Act3_House1
+        ObjectType: 3
+        guid: a0b10b1d20397c458240ce8abdb2be21
+      Path: Events\Default Work Unit\Play_Act3_House1
+      maxAttenuation: 50
+      maxDuration: 3.17483
+      minDuration: 3.17483
     - name: Play_Car_Hit_Random
       guid: 7df89ec9ffd79143b9cb625b15d1f593
       id: 3645412592
@@ -232,6 +300,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0730652
       minDuration: 0.38626286
+    - name: Play_Heartbeat
+      guid: e47e4ea48584f944977599a9787dd087
+      id: 3765695918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Heartbeat
+        ObjectType: 3
+        guid: e47e4ea48584f944977599a9787dd087
+      Path: Events\Default Work Unit\Play_Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Idle_Random
       guid: 0ec923361dd83d4bb09752e5491baf2c
       id: 3926932734
@@ -249,6 +334,40 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 1.5801258
       minDuration: 1.1458714
+    - name: Play_Leaving_Voiceline_1
+      guid: 9418feb791739e4db6b5176a51deeb13
+      id: 2936529391
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Leaving_Voiceline_1
+        ObjectType: 3
+        guid: 9418feb791739e4db6b5176a51deeb13
+      Path: Events\Default Work Unit\Play_Leaving_Voiceline_1
+      maxAttenuation: 50
+      maxDuration: 4.096
+      minDuration: 4.096
+    - name: Play_LoopingPlaygroundAmbience
+      guid: 45ad8bffadc63a42846e804fc3479f45
+      id: 966430699
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_LoopingPlaygroundAmbience
+        ObjectType: 3
+        guid: 45ad8bffadc63a42846e804fc3479f45
+      Path: Events\Default Work Unit\Play_LoopingPlaygroundAmbience
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
     - name: Play_M1_1
       guid: 3ab3541d7843ba4e8c00fb67dffbae39
       id: 1018343276
@@ -443,6 +562,23 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 2.3020155
       minDuration: 2.3020155
+    - name: Play_Playground_intro_1
+      guid: 6486fc3f48e8cf4a884cd212016f7c05
+      id: 3620625610
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_Playground_intro_1
+        ObjectType: 3
+        guid: 6486fc3f48e8cf4a884cd212016f7c05
+      Path: Events\Default Work Unit\Play_Playground_intro_1
+      maxAttenuation: 50
+      maxDuration: 10.049488
+      minDuration: 10.049488
     - name: Play_Road_1_1
       guid: 43d53b3d0d95bc438ba993bc1afa8588
       id: 4004380620
@@ -500,6 +636,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 80.159004
       minDuration: 80.159004
+    - name: Play_tunnel_Voice_Line_1
+      guid: eed0e280bfa5ca4ba168a6caf40dc32a
+      id: 2609156756
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_tunnel_Voice_Line_1
+        ObjectType: 3
+        guid: eed0e280bfa5ca4ba168a6caf40dc32a
+      Path: Events\Default Work Unit\Play_tunnel_Voice_Line_1
+      maxAttenuation: 50
+      maxDuration: 2.7306666
+      minDuration: 2.7306666
     - name: Stop_Car_Sound
       guid: 1ca64eb475079e47928de45e526604f8
       id: 3152558286
@@ -546,7 +699,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b22ebfc5be487a4abf32bfe2898a0598
     GuidInternal: 
-    m_lastTime: -8584533148041443701
+    m_lastTime: -8584488394337796864
     List:
     - name: EdgeTimer
       guid: 860e1e1009e5184088de715a199853c7
@@ -605,7 +758,7 @@ MonoBehaviour:
     m_lastTime: -8584646561471800045
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000b0000000c0000000e0000000f000000140000001500000017000000180000001e0000001f000000
+  ExpandedWaapiItemIds: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000e0000000f00000014000000150000001600000017000000180000001e0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
