@@ -343,6 +343,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_TV_Random" ID="{3140B56A-2A43-4055-8DE0-B36787CD090E}">
+					<ChildrenList>
+						<Action Name="" ID="{068A2817-5180-45FF-ADD9-B14E59541EDC}" ShortID="45582342">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TV Random" ID="{579954E7-534B-47A6-B555-723045F3597B}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_washing_Machine" ID="{573E4A66-462F-4B8B-9FE8-C1A0DE8B0160}">
+					<ChildrenList>
+						<Action Name="" ID="{3C0CEC24-4700-44DC-AD3A-D933E67DFF80}" ShortID="435352958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="washing Machine" ID="{60092915-D6C0-42C4-862E-BD6EC8725FF6}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HouseRoomTone" ID="{79B9CEAB-710E-47A4-AA75-30F753F2352E}">
+					<ChildrenList>
+						<Action Name="" ID="{F3C0F67D-F03C-4C11-9EB7-B9CBF1004B78}" ShortID="244830298">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HouseRoomTone" ID="{DB421B50-3E46-4DC4-A91F-7754399B4364}" WorkUnitID="{401B7885-F628-4E2B-ADA2-7BF1CCB4DA4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

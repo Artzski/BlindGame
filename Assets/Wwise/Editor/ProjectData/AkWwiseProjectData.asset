@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 57c3c8cba75d31448ea7ce9ce58e76c8
     GuidInternal: 
-    m_lastTime: -8584646561471800045
+    m_lastTime: -8584485124138412533
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584488279108287463
+    m_lastTime: -8584485103790777512
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584488279108221894
+    m_lastTime: -8584485103790626593
     List:
     - name: Marker Events
       guid: cdf799659456f442ae00a102195e8ae6
@@ -314,6 +314,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: e47e4ea48584f944977599a9787dd087
       Path: Events\Default Work Unit\Play_Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_HouseRoomTone
+      guid: abceb9790e71a447aa7530f753f2352e
+      id: 4243671059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_HouseRoomTone
+        ObjectType: 3
+        guid: abceb9790e71a447aa7530f753f2352e
+      Path: Events\Default Work Unit\Play_HouseRoomTone
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -653,6 +670,40 @@ MonoBehaviour:
       maxAttenuation: 50
       maxDuration: 2.7306666
       minDuration: 2.7306666
+    - name: Play_TV_Random
+      guid: 6ab54031432a55408de0b36787cd090e
+      id: 3310235054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_TV_Random
+        ObjectType: 3
+        guid: 6ab54031432a55408de0b36787cd090e
+      Path: Events\Default Work Unit\Play_TV_Random
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_washing_Machine
+      guid: 664a3e572f468b4b9fe8c1a0de8b0160
+      id: 1320004683
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: adc13246c91a5a46974557a0f3c4dcfa
+      - ElementName: Play_washing_Machine
+        ObjectType: 3
+        guid: 664a3e572f468b4b9fe8c1a0de8b0160
+      Path: Events\Default Work Unit\Play_washing_Machine
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_Car_Sound
       guid: 1ca64eb475079e47928de45e526604f8
       id: 3152558286
@@ -699,7 +750,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: b22ebfc5be487a4abf32bfe2898a0598
     GuidInternal: 
-    m_lastTime: -8584488394337796864
+    m_lastTime: -8584485170960417102
     List:
     - name: EdgeTimer
       guid: 860e1e1009e5184088de715a199853c7

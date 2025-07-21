@@ -10,6 +10,7 @@
 								<Sound Name="M1_1" ID="{018358A7-195A-4287-925E-0380A41B5B7B}" ShortID="247480151">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -47,6 +48,7 @@
 								<Sound Name="M2_1" ID="{4F9588BA-59C1-4B43-842E-83C12C2B5DD6}" ShortID="23587836">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -83,6 +85,7 @@
 								<Sound Name="M3_1" ID="{98ABC9FD-D738-4A34-B503-C6227417129A}" ShortID="68298732">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -121,6 +124,7 @@
 								<Sound Name="M4_1" ID="{B45468E5-D022-4C30-8C1F-5698EF69E9BF}" ShortID="551006167">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -158,6 +162,7 @@
 								<Sound Name="M5_1" ID="{CD048E1F-FC6F-47B9-BE7E-08BA412F0EB1}" ShortID="455505194">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -195,6 +200,7 @@
 								<Sound Name="M6_1" ID="{050D12E7-3764-4B20-ACBB-1C35C2E27687}" ShortID="296579088">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -232,6 +238,7 @@
 								<Sound Name="M7_1" ID="{8DF8114C-DAF7-4DF8-A023-DC3C5D653332}" ShortID="344477833">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -268,6 +275,7 @@
 								<Sound Name="Playground Entrance_1" ID="{BC254AFF-0C44-48E2-82B3-3C064FFA3A62}" ShortID="793660024">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -304,6 +312,7 @@
 								<Sound Name="Road 1_1" ID="{B5F71330-2F9E-4433-AC6A-E22BD36A8E95}" ShortID="664980769">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -341,6 +350,7 @@
 								<Sound Name="Road 2_1" ID="{3B1D3AE8-A553-429E-BD42-A66B998C174E}" ShortID="63150134">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -377,6 +387,7 @@
 								<RandomSequenceContainer Name="Idle Random Container" ID="{BD41BE2D-70DF-4DD0-B38D-3C4B49F1A359}" ShortID="769092741">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
@@ -516,8 +527,8 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Car Hit Random" ID="{4DEA103C-69EA-45E2-B036-5B215960DEFC}" ShortID="803951128">
 									<PropertyList>
-										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
 									</PropertyList>
 									<ReferenceList>
@@ -605,6 +616,7 @@
 								<Sound Name="Sister's Room (FULL)" ID="{D97CAB05-E2DB-44C3-9C96-EC16589A8C53}" ShortID="120199510">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -630,6 +642,7 @@
 								<Sound Name="Door Sound" ID="{91752A08-2E53-467A-B52E-7847F4841AAE}" ShortID="767065830">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -667,6 +680,7 @@
 								<Sound Name="Act 3 Parent Line_1" ID="{D5257AFF-931B-4B2C-B09C-1F7B581667ED}" ShortID="5649868">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -684,6 +698,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Act 3 Parent Line_1" ID="{E1C8395F-A361-413E-A383-B749F1279113}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.27789656106147"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Playground And Act 3\Act 3 Parent Line_1.wav</AudioFile>
 											<MediaIDList>
@@ -698,6 +716,7 @@
 								<Sound Name="Act 3 Road 2_1" ID="{34F8C6F0-6BAC-42B3-94FC-9348155F3EFF}" ShortID="227602677">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -729,6 +748,7 @@
 								<Sound Name="Act 3 Roadside_1" ID="{867E7B17-768A-469F-B1EE-4CD80DA2978E}" ShortID="547756616">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -760,6 +780,7 @@
 								<Sound Name="Leaving Voiceline_1" ID="{CBC6ECBA-39D7-4738-A71A-6E38CB883D26}" ShortID="311317817">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>4</Value>
@@ -796,6 +817,7 @@
 								<Sound Name="Playground intro_1" ID="{517EAD5C-CCAC-4D38-90B7-433E7AF8CD96}" ShortID="862042876">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -832,6 +854,7 @@
 								<Sound Name="tunnel Voice Line_1" ID="{96B51866-8C56-4BC4-B54B-3E4C42025A37}" ShortID="940992481">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -867,6 +890,7 @@
 								<Sound Name="LoopingPlaygroundAmbience" ID="{50FEF887-2BF4-4914-B673-7B7DE1A7E71C}" ShortID="372157238">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -901,6 +925,12 @@
 								<Sound Name="Act3 House1" ID="{7D257611-EB6E-469A-B212-015C0C6F8FBF}" ShortID="700459361">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
@@ -1458,6 +1488,159 @@
 					</ObjectLists>
 					<ActiveSourceList>
 						<ActiveSource Name="Heartbeat" ID="{B61E2413-BE2C-453F-8A74-F21E494CDD27}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="washing Machine" ID="{60092915-D6C0-42C4-862E-BD6EC8725FF6}" ShortID="915959724">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-34</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="insideHouse" ID="{51D4E0AA-ED20-4AC8-90DA-78B432A36344}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="washing Machine" ID="{E082606E-AFC8-4276-933C-AD97C22307FE}">
+							<Language>SFX</Language>
+							<AudioFile>washing Machine.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="913189506"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{3E8AAEA3-5245-4A5A-AEA5-C3137B94A75F}"/>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="washing Machine" ID="{E082606E-AFC8-4276-933C-AD97C22307FE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="TV Random" ID="{579954E7-534B-47A6-B555-723045F3597B}" ShortID="164143401">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="insideHouse" ID="{51D4E0AA-ED20-4AC8-90DA-78B432A36344}" WorkUnitID="{CDF89E70-BB93-46FB-BA77-6818AEFFA2DB}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+						<Reference Name="ReflectionsAuxSend">
+							<ObjectRef Name="Reflect" ID="{BCEB511D-8852-4E74-AEC7-10371F870C9A}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="TVNoise1" ID="{64112AA6-7287-4746-BD93-5590A786AA0F}" ShortID="869906903">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-25</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TVNoise1" ID="{6C7A3AA2-FA75-40A1-B1D7-DF7381C3EECD}">
+									<Language>SFX</Language>
+									<AudioFile>TVNoise1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="685729772"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TVNoise1" ID="{6C7A3AA2-FA75-40A1-B1D7-DF7381C3EECD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TVNoise2" ID="{68F95788-2EED-4E76-A23E-AC1A33097210}" ShortID="236022778">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TVNoise2" ID="{78BCB947-7EAC-47B2-937E-8E0A10B7AE91}">
+									<Language>SFX</Language>
+									<AudioFile>TVNoise2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="911491002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TVNoise2" ID="{78BCB947-7EAC-47B2-937E-8E0A10B7AE91}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="HouseRoomTone" ID="{DB421B50-3E46-4DC4-A91F-7754399B4364}" ShortID="570162572">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6F33511-27F5-4CEE-AB68-6CED08340FAD}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{210C3263-010B-422B-BFA5-BDBAFD381A4E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="HouseRoomTone" ID="{7238F9A1-8576-405E-B4D9-D4BC79FC335D}">
+							<Language>SFX</Language>
+							<AudioFile>HouseRoomTone.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="493147342"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="HouseRoomTone" ID="{7238F9A1-8576-405E-B4D9-D4BC79FC335D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

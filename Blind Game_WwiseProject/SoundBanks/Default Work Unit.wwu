@@ -7,6 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Outside_Wind_Only" ID="{F8F2C2A2-A9F3-401A-AD04-E72CF791E5E6}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Act_3_Road_2_1" ID="{38352756-F9AB-4031-8B42-5790BD7DBA0C}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TV_Random" ID="{3140B56A-2A43-4055-8DE0-B36787CD090E}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Road_2_1" ID="{1C000987-2025-4064-991F-0B72B6DFDAA1}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M7_1" ID="{16E5EA1A-405E-4121-9890-6C5337C008CE}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Outside_Amb" ID="{0B03286F-B50E-417D-BA46-F605D2ACDC36}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
@@ -22,6 +23,7 @@
 						<ObjectRef Name="Play_Car_Sound" ID="{8EA2704C-C82A-454F-B39A-37929B91D3A9}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Act3_House1" ID="{1D0BB1A0-3920-457C-8240-CE8ABDB2BE21}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Car_Sound" ID="{B44EA61C-0775-479E-928D-E45E526604F8}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HouseRoomTone" ID="{79B9CEAB-710E-47A4-AA75-30F753F2352E}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M4_1" ID="{47B5C0BA-3639-48CE-9232-3FFE65538F45}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_Idle_Random" ID="{2436119A-3772-48F1-85A1-4EF858FDDE71}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_M3_1" ID="{0E9D5CFF-CE4A-4A37-AABB-34B44693F960}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
@@ -29,6 +31,7 @@
 						<ObjectRef Name="Play_Playground_intro_1" ID="{3FFC8664-E848-4ACF-884C-D212016F7C05}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Act_3_Parent_Line_1" ID="{F02A2A43-18BE-4B13-BA78-7A7F387E2B1A}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Idle_Random" ID="{3623C90E-D81D-4B3D-B097-52E5491BAF2C}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_washing_Machine" ID="{573E4A66-462F-4B8B-9FE8-C1A0DE8B0160}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_tunnel_Voice_Line_1" ID="{80E2D0EE-A5BF-4BCA-A168-A6CAF40DC32A}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Act_3_Roadside_1" ID="{23908901-5F9E-4CF1-96C1-55255B0FFF16}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Leaving_Voiceline_1" ID="{B7FE1894-7391-4D9E-B6B5-176A51DEEB13}" WorkUnitID="{4632C1AD-1AC9-465A-9745-57A0F3C4DCFA}" Origin="Manual" Filter="7"/>

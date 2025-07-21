@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9B1B2B4-BCC5-5B45-181B-9C5627879F96}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{40F3BFD1-4EA4-3E4A-1A6E-BD078DFBB9ED}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -45,7 +45,7 @@
 				<GameParameter Id="1674544969" Name="EdgeTimer"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E7C561C3-8DFD-3CCC-CEB1-8A48C85947D2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04C717E4-FB31-1C1A-F2FD-A92AEDE373DD}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -133,6 +133,10 @@
 					<ShortName>Playground And Act 3\Playground intro_1.wav</ShortName>
 					<CachePath>SFX/Playground And Act 3/Playground intro_1_BB5769BF.wem</CachePath>
 				</File>
+				<File Id="493147342" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HouseRoomTone.wav</ShortName>
+					<CachePath>SFX/HouseRoomTone_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="505195033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps 08.wav</ShortName>
 					<CachePath>SFX/footsteps 08_0C927A42.wem</CachePath>
@@ -156,6 +160,10 @@
 				<File Id="592503033" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Playground And Act 3\Act 3 Roadside_1.wav</ShortName>
 					<CachePath>SFX/Playground And Act 3/Act 3 Roadside_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="685729772" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TVNoise1.wav</ShortName>
+					<CachePath>SFX/TVNoise1_818F3B66.wem</CachePath>
 				</File>
 				<File Id="712187636" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Sister's Room (FULL).wav</ShortName>
@@ -185,6 +193,14 @@
 					<ShortName>Main (pre-playground)\Idle 4_1.wav</ShortName>
 					<CachePath>SFX/Main (pre-playground)/Idle 4_1_1F97E041.wem</CachePath>
 				</File>
+				<File Id="911491002" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TVNoise2.wav</ShortName>
+					<CachePath>SFX/TVNoise2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="913189506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>washing Machine.wav</ShortName>
+					<CachePath>SFX/washing Machine_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="944116876" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Act3 House1.wav</ShortName>
 					<CachePath>SFX/Act3 House1_818F3B66.wem</CachePath>
@@ -203,7 +219,7 @@
 				</File>
 				<File Id="1032644892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Playground And Act 3\Act 3 Parent Line_1.wav</ShortName>
-					<CachePath>SFX/Playground And Act 3/Act 3 Parent Line_1_818F3B66.wem</CachePath>
+					<CachePath>SFX/Playground And Act 3/Act 3 Parent Line_1_19866A14.wem</CachePath>
 				</File>
 				<File Id="1069298539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps 08.wav</ShortName>
@@ -216,12 +232,12 @@
 				</ShareSets>
 			</Plugins>
 			<Events>
-				<Event Id="2867314425" Name="Play_Act3_House1" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.17483" DurationMax="3.17483">
+				<Event Id="2867314425" Name="Play_Act3_House1" MaxAttenuation="100" DurationType="OneShot" DurationMin="3.17483" DurationMax="3.17483">
 					<MediaRefs>
 						<MediaRef Id="944116876"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3889060588" Name="Play_Act_3_Parent_Line_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+				<Event Id="3889060588" Name="Play_Act_3_Parent_Line_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.2778964" DurationMax="4.2778964">
 					<MediaRefs>
 						<MediaRef Id="1032644892"/>
 					</MediaRefs>
@@ -229,7 +245,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2002940730" Name="Play_Act_3_Road_2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+				<Event Id="2002940730" Name="Play_Act_3_Road_2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
 					<MediaRefs>
 						<MediaRef Id="42038301"/>
 					</MediaRefs>
@@ -237,7 +253,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1489931248" Name="Play_Act_3_Roadside_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+				<Event Id="1489931248" Name="Play_Act_3_Roadside_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
 					<MediaRefs>
 						<MediaRef Id="592503033"/>
 					</MediaRefs>
@@ -245,7 +261,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
+				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
 					<MediaRefs>
 						<MediaRef Id="325146162"/>
 						<MediaRef Id="1015973906"/>
@@ -264,7 +280,7 @@
 						<MediaRef Id="587738569"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1258470994" Name="Play_Door_Sound" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4767581" DurationMax="1.4767581">
+				<Event Id="1258470994" Name="Play_Door_Sound" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.4767581" DurationMax="1.4767581">
 					<MediaRefs>
 						<MediaRef Id="155656626"/>
 					</MediaRefs>
@@ -288,7 +304,12 @@
 						<MediaRef Id="39828516"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
+				<Event Id="4243671059" Name="Play_HouseRoomTone" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="493147342"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
 					<MediaRefs>
 						<MediaRef Id="407779606"/>
 						<MediaRef Id="714759025"/>
@@ -299,7 +320,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2936529391" Name="Play_Leaving_Voiceline_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.096" DurationMax="4.096">
+				<Event Id="2936529391" Name="Play_Leaving_Voiceline_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.096" DurationMax="4.096">
 					<MediaRefs>
 						<MediaRef Id="550187814"/>
 					</MediaRefs>
@@ -312,7 +333,7 @@
 						<MediaRef Id="443952319"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1018343276" Name="Play_M1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.594692" DurationMax="4.594692">
+				<Event Id="1018343276" Name="Play_M1_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.594692" DurationMax="4.594692">
 					<MediaRefs>
 						<MediaRef Id="577159097"/>
 					</MediaRefs>
@@ -320,7 +341,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1018784531" Name="Play_M2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.7082536" DurationMax="2.7082536">
+				<Event Id="1018784531" Name="Play_M2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.7082536" DurationMax="2.7082536">
 					<MediaRefs>
 						<MediaRef Id="42558266"/>
 					</MediaRefs>
@@ -328,7 +349,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2092405114" Name="Play_M3_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3627176" DurationMax="2.3627176">
+				<Event Id="2092405114" Name="Play_M3_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3627176" DurationMax="2.3627176">
 					<MediaRefs>
 						<MediaRef Id="829595835"/>
 					</MediaRefs>
@@ -336,7 +357,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="2092846369" Name="Play_M4_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.2947304" DurationMax="3.2947304">
+				<Event Id="2092846369" Name="Play_M4_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="3.2947304" DurationMax="3.2947304">
 					<MediaRefs>
 						<MediaRef Id="91783836"/>
 					</MediaRefs>
@@ -344,7 +365,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1018931592" Name="Play_M5_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8770999" DurationMax="1.8770999">
+				<Event Id="1018931592" Name="Play_M5_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.8770999" DurationMax="1.8770999">
 					<MediaRefs>
 						<MediaRef Id="843771257"/>
 					</MediaRefs>
@@ -352,7 +373,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1019476047" Name="Play_M6_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.77605474" DurationMax="0.77605474">
+				<Event Id="1019476047" Name="Play_M6_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.77605474" DurationMax="0.77605474">
 					<MediaRefs>
 						<MediaRef Id="5895167"/>
 					</MediaRefs>
@@ -360,7 +381,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="1019328982" Name="Play_M7_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.196487" DurationMax="2.196487">
+				<Event Id="1019328982" Name="Play_M7_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.196487" DurationMax="2.196487">
 					<MediaRefs>
 						<MediaRef Id="521523744"/>
 					</MediaRefs>
@@ -390,7 +411,7 @@
 						</ShareSets>
 					</PluginRefs>
 				</Event>
-				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
+				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
 					<MediaRefs>
 						<MediaRef Id="50117545"/>
 					</MediaRefs>
@@ -398,7 +419,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="3620625610" Name="Play_Playground_intro_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="10.049488" DurationMax="10.049488">
+				<Event Id="3620625610" Name="Play_Playground_intro_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="10.049488" DurationMax="10.049488">
 					<MediaRefs>
 						<MediaRef Id="452862857"/>
 					</MediaRefs>
@@ -406,7 +427,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4004380620" Name="Play_Road_1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.5382872" DurationMax="2.5382872">
+				<Event Id="4004380620" Name="Play_Road_1_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.5382872" DurationMax="2.5382872">
 					<MediaRefs>
 						<MediaRef Id="59219686"/>
 					</MediaRefs>
@@ -414,7 +435,7 @@
 						<AuxBusRef Id="243379636" Name="Reflect"/>
 					</AuxBusRefs>
 				</Event>
-				<Event Id="4004925171" Name="Play_Road_2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="5.606085" DurationMax="5.606085">
+				<Event Id="4004925171" Name="Play_Road_2_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="5.606085" DurationMax="5.606085">
 					<MediaRefs>
 						<MediaRef Id="147523988"/>
 					</MediaRefs>
@@ -427,9 +448,26 @@
 						<MediaRef Id="712187636"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2609156756" Name="Play_tunnel_Voice_Line_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.7306666" DurationMax="2.7306666">
+				<Event Id="2609156756" Name="Play_tunnel_Voice_Line_1" MaxAttenuation="100" DurationType="OneShot" DurationMin="2.7306666" DurationMax="2.7306666">
 					<MediaRefs>
 						<MediaRef Id="405287913"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3310235054" Name="Play_TV_Random" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="685729772"/>
+						<MediaRef Id="911491002"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1320004683" Name="Play_washing_Machine" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="913189506"/>
 					</MediaRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="243379636" Name="Reflect"/>
@@ -443,5 +481,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7ACD1A51-D2F3-A164-496B-E9E1E872FFC5}</FileHash>
+	<FileHash>{F8CFD625-A006-5C02-1A94-15825301F8A1}</FileHash>
 </SoundBanksInfo>
