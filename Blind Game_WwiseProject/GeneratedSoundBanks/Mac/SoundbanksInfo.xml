@@ -45,7 +45,7 @@
 				<GameParameter Id="1674544969" Name="EdgeTimer"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04C717E4-FB31-1C1A-F2FD-A92AEDE373DD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E0CE7D6A-747E-9ABA-0C4E-5700D1E2A3DA}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -219,7 +219,7 @@
 				</File>
 				<File Id="1032644892" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Playground And Act 3\Act 3 Parent Line_1.wav</ShortName>
-					<CachePath>SFX/Playground And Act 3/Act 3 Parent Line_1_19866A14.wem</CachePath>
+					<CachePath>SFX/Playground And Act 3/Act 3 Parent Line_1_5991B093.wem</CachePath>
 				</File>
 				<File Id="1069298539" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>footsteps 08.wav</ShortName>
@@ -481,5 +481,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45AA4CCD-AAC6-720B-C593-76CEAD286047}</FileHash>
+	<FileHash>{EB78753E-62AB-051C-9FDF-AAB84AC8E784}</FileHash>
 </SoundBanksInfo>

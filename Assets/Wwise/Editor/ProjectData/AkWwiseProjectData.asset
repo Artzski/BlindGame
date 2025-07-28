@@ -100,7 +100,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 25dae22ade8c434f8649fba576aefafa
     GuidInternal: 
-    m_lastTime: -8584485103790777512
+    m_lastTime: -8584478812988365719
     List:
     - name: Main
       guid: b968cebc6bd6d541b7fb4e287b6c5a0b
@@ -128,7 +128,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: adc13246c91a5a46974557a0f3c4dcfa
     GuidInternal: 
-    m_lastTime: -8584485103790626593
+    m_lastTime: -8584478812995010776
     List:
     - name: Marker Events
       guid: cdf799659456f442ae00a102195e8ae6
@@ -161,9 +161,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 432a2af0be18134bba787a7f387e2b1a
       Path: Events\Default Work Unit\Play_Act_3_Parent_Line_1
-      maxAttenuation: 50
-      maxDuration: 4.7786665
-      minDuration: 4.7786665
+      maxAttenuation: 100
+      maxDuration: 4.2778964
+      minDuration: 4.2778964
     - name: Play_Act_3_Road_2_1
       guid: 56273538abf931408b425790bd7dba0c
       id: 2002940730
@@ -178,7 +178,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 56273538abf931408b425790bd7dba0c
       Path: Events\Default Work Unit\Play_Act_3_Road_2_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 4.7786665
       minDuration: 4.7786665
     - name: Play_Act_3_Roadside_1
@@ -195,7 +195,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 018990239e5ff14c96c155255b0fff16
       Path: Events\Default Work Unit\Play_Act_3_Roadside_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 4.7786665
       minDuration: 4.7786665
     - name: Play_Act3_House1
@@ -212,7 +212,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a0b10b1d20397c458240ce8abdb2be21
       Path: Events\Default Work Unit\Play_Act3_House1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 3.17483
       minDuration: 3.17483
     - name: Play_Car_Hit_Random
@@ -229,7 +229,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7df89ec9ffd79143b9cb625b15d1f593
       Path: Events\Default Work Unit\Play_Car_Hit_Random
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.9790788
       minDuration: 1.3784077
     - name: Play_Car_Screech
@@ -280,7 +280,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 67f2c7afa86cb34abe349dbb5610cdca
       Path: Events\Default Work Unit\Play_Door_Sound
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 1.4767581
       minDuration: 1.4767581
     - name: Play_Footstep_Random
@@ -348,7 +348,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0ec923361dd83d4bb09752e5491baf2c
       Path: Events\Default Work Unit\Play_Idle_Random
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 1.5801258
       minDuration: 1.1458714
     - name: Play_Leaving_Voiceline_1
@@ -365,7 +365,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9418feb791739e4db6b5176a51deeb13
       Path: Events\Default Work Unit\Play_Leaving_Voiceline_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 4.096
       minDuration: 4.096
     - name: Play_LoopingPlaygroundAmbience
@@ -402,7 +402,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3ab3541d7843ba4e8c00fb67dffbae39
       Path: Events\Default Work Unit\Marker Events\Play_M1_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 4.594692
       minDuration: 4.594692
     - name: Play_M2_1
@@ -422,7 +422,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1cb496c3bc3f624f93ef587b2747d943
       Path: Events\Default Work Unit\Marker Events\Play_M2_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.7082536
       minDuration: 2.7082536
     - name: Play_M3_1
@@ -442,7 +442,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ff5c9d0e4ace374aaabb34b44693f960
       Path: Events\Default Work Unit\Marker Events\Play_M3_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.3627176
       minDuration: 2.3627176
     - name: Play_M4_1
@@ -462,7 +462,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: bac0b5473936ce4892323ffe65538f45
       Path: Events\Default Work Unit\Marker Events\Play_M4_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 3.2947304
       minDuration: 3.2947304
     - name: Play_M5_1
@@ -482,7 +482,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: efd677b036d0514f84a7786a984c5881
       Path: Events\Default Work Unit\Marker Events\Play_M5_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 1.8770999
       minDuration: 1.8770999
     - name: Play_M6_1
@@ -502,7 +502,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 11c0512180ce8a4281c4da9ac6f97709
       Path: Events\Default Work Unit\Marker Events\Play_M6_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 0.77605474
       minDuration: 0.77605474
     - name: Play_M7_1
@@ -522,7 +522,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1aeae5165e40214198906c5337c008ce
       Path: Events\Default Work Unit\Marker Events\Play_M7_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.196487
       minDuration: 2.196487
     - name: Play_Outside_Amb
@@ -576,7 +576,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f8cfc278c4395444ae8e853b542ad2b1
       Path: Events\Default Work Unit\Marker Events\Play_Playground_Entrance_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.3020155
       minDuration: 2.3020155
     - name: Play_Playground_intro_1
@@ -593,7 +593,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6486fc3f48e8cf4a884cd212016f7c05
       Path: Events\Default Work Unit\Play_Playground_intro_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 10.049488
       minDuration: 10.049488
     - name: Play_Road_1_1
@@ -613,7 +613,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 43d53b3d0d95bc438ba993bc1afa8588
       Path: Events\Default Work Unit\Marker Events\Play_Road_1_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.5382872
       minDuration: 2.5382872
     - name: Play_Road_2_1
@@ -633,7 +633,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8709001c25206440991f0b72b6dfdaa1
       Path: Events\Default Work Unit\Marker Events\Play_Road_2_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 5.606085
       minDuration: 5.606085
     - name: Play_Sister_s_Room__FULL_
@@ -667,7 +667,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: eed0e280bfa5ca4ba168a6caf40dc32a
       Path: Events\Default Work Unit\Play_tunnel_Voice_Line_1
-      maxAttenuation: 50
+      maxAttenuation: 100
       maxDuration: 2.7306666
       minDuration: 2.7306666
     - name: Play_TV_Random
@@ -684,7 +684,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6ab54031432a55408de0b36787cd090e
       Path: Events\Default Work Unit\Play_TV_Random
-      maxAttenuation: 40
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Play_washing_Machine
@@ -701,7 +701,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 664a3e572f468b4b9fe8c1a0de8b0160
       Path: Events\Default Work Unit\Play_washing_Machine
-      maxAttenuation: 40
+      maxAttenuation: 50
       maxDuration: -1
       minDuration: -1
     - name: Stop_Car_Sound
