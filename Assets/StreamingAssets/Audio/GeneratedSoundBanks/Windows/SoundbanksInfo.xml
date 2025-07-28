@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F9B1B2B4-BCC5-5B45-181B-9C5627879F96}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="164825399" Name="New_Reflect" LibName="Wwise Reflect" LibId="11206659"/>
+					<Plugin Id="3407225994" Name="Phone_Booth" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="243379636" Name="Reflect">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="164825399"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+				<AuxBus Id="348963605" Name="Reverb">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3407225994"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="1674544969" Name="EdgeTimer"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E7C561C3-8DFD-3CCC-CEB1-8A48C85947D2}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="5895167" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M6_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M6_1_158336F1.wem</CachePath>
+				</File>
+				<File Id="10848318" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_FE0D381A.wem</CachePath>
+				</File>
+				<File Id="39828516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Heartbeat.wav</ShortName>
+					<CachePath>SFX/Heartbeat_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="42038301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\Act 3 Road 2_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/Act 3 Road 2_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="42348704" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience 1.wav</ShortName>
+					<CachePath>SFX/Outside Ambience 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="42558266" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M2_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M2_1_69F4BFCD.wem</CachePath>
+				</File>
+				<File Id="50117545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Playground Entrance_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Playground Entrance_1_92C82F5F.wem</CachePath>
+				</File>
+				<File Id="59219686" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Road 1_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Road 1_1_CB99E967.wem</CachePath>
+				</File>
+				<File Id="91783836" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M4_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M4_1_86A85D9C.wem</CachePath>
+				</File>
+				<File Id="145950095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_520E042D.wem</CachePath>
+				</File>
+				<File Id="147523988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Road 2_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Road 2_1_D710F5E2.wem</CachePath>
+				</File>
+				<File Id="155656626" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door_Open_and_Close_Sound_Effects.wav</ShortName>
+					<CachePath>SFX/Door_Open_and_Close_Sound_Effects_58C433A2.wem</CachePath>
+				</File>
+				<File Id="163071341" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience(Just Wind).wav</ShortName>
+					<CachePath>SFX/Outside Ambience(Just Wind)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="182484070" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Car Screech.wav</ShortName>
+					<CachePath>SFX/Car Screech_0345144F.wem</CachePath>
+				</File>
+				<File Id="325146162" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Car Hit 1_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Car Hit 1_1_22FCD28B.wem</CachePath>
+				</File>
+				<File Id="340291589" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience 2.wav</ShortName>
+					<CachePath>SFX/Outside Ambience 2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="388206433" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_C7ACB947.wem</CachePath>
+				</File>
+				<File Id="405287913" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\tunnel Voice Line_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/tunnel Voice Line_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="407779606" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Idle 1_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Idle 1_1_C0A6C755.wem</CachePath>
+				</File>
+				<File Id="443952319" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>LoopingPlaygroundAmbience.wav</ShortName>
+					<CachePath>SFX/LoopingPlaygroundAmbience_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="452862857" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\Playground intro_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/Playground intro_1_BB5769BF.wem</CachePath>
+				</File>
+				<File Id="505195033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_0C927A42.wem</CachePath>
+				</File>
+				<File Id="521523744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M7_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M7_1_E063F1C2.wem</CachePath>
+				</File>
+				<File Id="550187814" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\Leaving Voiceline_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/Leaving Voiceline_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="577159097" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M1_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M1_1_0BBB33D8.wem</CachePath>
+				</File>
+				<File Id="587738569" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Car Sound.wav</ShortName>
+					<CachePath>SFX/Car Sound_15D6AD95.wem</CachePath>
+				</File>
+				<File Id="592503033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\Act 3 Roadside_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/Act 3 Roadside_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="712187636" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Sister's Room (FULL).wav</ShortName>
+					<CachePath>SFX/Sister's Room (FULL)_818F3B66.wem</CachePath>
+				</File>
+				<File Id="714759025" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Idle 2_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Idle 2_1_208944F5.wem</CachePath>
+				</File>
+				<File Id="754453767" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_17CF63E0.wem</CachePath>
+				</File>
+				<File Id="779842558" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Idle 3_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Idle 3_1_79F41F63.wem</CachePath>
+				</File>
+				<File Id="829595835" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M3_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M3_1_20C4BC1D.wem</CachePath>
+				</File>
+				<File Id="843771257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\M5_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/M5_1_3CAF105C.wem</CachePath>
+				</File>
+				<File Id="874353328" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Idle 4_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Idle 4_1_1F97E041.wem</CachePath>
+				</File>
+				<File Id="944116876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Act3 House1.wav</ShortName>
+					<CachePath>SFX/Act3 House1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="954408907" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Outside Ambience(Just Wind).wav</ShortName>
+					<CachePath>SFX/Outside Ambience(Just Wind)_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1015973906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Main (pre-playground)\Car Hit 2_1.wav</ShortName>
+					<CachePath>SFX/Main (pre-playground)/Car Hit 2_1_DBF921C9.wem</CachePath>
+				</File>
+				<File Id="1022515236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_8A0AE4CC.wem</CachePath>
+				</File>
+				<File Id="1032644892" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Playground And Act 3\Act 3 Parent Line_1.wav</ShortName>
+					<CachePath>SFX/Playground And Act 3/Act 3 Parent Line_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1069298539" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps 08.wav</ShortName>
+					<CachePath>SFX/footsteps 08_967793E8.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1008402193" Name="Low_Pass_20KHz" LibName="Wwise Parametric EQ" LibId="6881283"/>
+				</ShareSets>
+			</Plugins>
+			<Events>
+				<Event Id="2867314425" Name="Play_Act3_House1" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.17483" DurationMax="3.17483">
+					<MediaRefs>
+						<MediaRef Id="944116876"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3889060588" Name="Play_Act_3_Parent_Line_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+					<MediaRefs>
+						<MediaRef Id="1032644892"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2002940730" Name="Play_Act_3_Road_2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+					<MediaRefs>
+						<MediaRef Id="42038301"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1489931248" Name="Play_Act_3_Roadside_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.7786665" DurationMax="4.7786665">
+					<MediaRefs>
+						<MediaRef Id="592503033"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3645412592" Name="Play_Car_Hit_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.3784077" DurationMax="2.9790788">
+					<MediaRefs>
+						<MediaRef Id="325146162"/>
+						<MediaRef Id="1015973906"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3700354250" Name="Play_Car_Screech" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.5310368" DurationMax="0.5310368">
+					<MediaRefs>
+						<MediaRef Id="182484070"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1756269068" Name="Play_Car_Sound" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="587738569"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1258470994" Name="Play_Door_Sound" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.4767581" DurationMax="1.4767581">
+					<MediaRefs>
+						<MediaRef Id="155656626"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2238739690" Name="Play_Footstep_Random" DurationType="OneShot" DurationMin="0.38626286" DurationMax="1.0730652">
+					<MediaRefs>
+						<MediaRef Id="10848318"/>
+						<MediaRef Id="145950095"/>
+						<MediaRef Id="388206433"/>
+						<MediaRef Id="505195033"/>
+						<MediaRef Id="754453767"/>
+						<MediaRef Id="1022515236"/>
+						<MediaRef Id="1069298539"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3765695918" Name="Play_Heartbeat" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="39828516"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3926932734" Name="Play_Idle_Random" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.1458714" DurationMax="1.5801258">
+					<MediaRefs>
+						<MediaRef Id="407779606"/>
+						<MediaRef Id="714759025"/>
+						<MediaRef Id="779842558"/>
+						<MediaRef Id="874353328"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2936529391" Name="Play_Leaving_Voiceline_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.096" DurationMax="4.096">
+					<MediaRefs>
+						<MediaRef Id="550187814"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="966430699" Name="Play_LoopingPlaygroundAmbience" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="443952319"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1018343276" Name="Play_M1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="4.594692" DurationMax="4.594692">
+					<MediaRefs>
+						<MediaRef Id="577159097"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1018784531" Name="Play_M2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.7082536" DurationMax="2.7082536">
+					<MediaRefs>
+						<MediaRef Id="42558266"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2092405114" Name="Play_M3_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3627176" DurationMax="2.3627176">
+					<MediaRefs>
+						<MediaRef Id="829595835"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2092846369" Name="Play_M4_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="3.2947304" DurationMax="3.2947304">
+					<MediaRefs>
+						<MediaRef Id="91783836"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1018931592" Name="Play_M5_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="1.8770999" DurationMax="1.8770999">
+					<MediaRefs>
+						<MediaRef Id="843771257"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1019476047" Name="Play_M6_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.77605474" DurationMax="0.77605474">
+					<MediaRefs>
+						<MediaRef Id="5895167"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="1019328982" Name="Play_M7_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.196487" DurationMax="2.196487">
+					<MediaRefs>
+						<MediaRef Id="521523744"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="2557511950" Name="Play_Outside_Amb" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="42348704"/>
+						<MediaRef Id="163071341"/>
+						<MediaRef Id="340291589"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="2166344645" Name="Play_Outside_Wind_Only" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="954408907"/>
+					</MediaRefs>
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1008402193"/>
+						</ShareSets>
+					</PluginRefs>
+				</Event>
+				<Event Id="3564523758" Name="Play_Playground_Entrance_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.3020155" DurationMax="2.3020155">
+					<MediaRefs>
+						<MediaRef Id="50117545"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3620625610" Name="Play_Playground_intro_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="10.049488" DurationMax="10.049488">
+					<MediaRefs>
+						<MediaRef Id="452862857"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4004380620" Name="Play_Road_1_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.5382872" DurationMax="2.5382872">
+					<MediaRefs>
+						<MediaRef Id="59219686"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4004925171" Name="Play_Road_2_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="5.606085" DurationMax="5.606085">
+					<MediaRefs>
+						<MediaRef Id="147523988"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="4263315066" Name="Play_Sister_s_Room__FULL_" DurationType="OneShot" DurationMin="80.159004" DurationMax="80.159004">
+					<MediaRefs>
+						<MediaRef Id="712187636"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2609156756" Name="Play_tunnel_Voice_Line_1" MaxAttenuation="50" DurationType="OneShot" DurationMin="2.7306666" DurationMax="2.7306666">
+					<MediaRefs>
+						<MediaRef Id="405287913"/>
+					</MediaRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="243379636" Name="Reflect"/>
+					</AuxBusRefs>
+				</Event>
+				<Event Id="3152558286" Name="Stop_Car_Sound" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1534226704" Name="Stop_Idle_Random" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1674544969" Name="EdgeTimer"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7ACD1A51-D2F3-A164-496B-E9E1E872FFC5}</FileHash>
+</SoundBanksInfo>
